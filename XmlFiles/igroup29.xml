@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>KSR loves animels CRM</name>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>מערכת CRM</tag>
+        <tag>android</tag>
+    </tags>
+    <faculty>BA</faculty>
+    <year>2013</year>
+    <customer>
+        <name>KSR loves animels</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup29/prod/Images/newlogo.jpg</logoUrl>
+        <shortDescription>
+            עמותת כפר סבא רעננה דואגת לבעלי חיים נטושים, חולים או פצועים ובעלי חיים במצוקה החל במתן טיפול רפואי ושיקום ועד לאימוץ ומציאת בית חם וכל זאת במסגרת התקציב שעומד לראשות העמותה וכל זאת על ידי צוות של כ400 מתנדבים
+        </shortDescription>
+        <interstedParties>
+            <party>מנהלי העמותה</party>
+        </interstedParties>
+        <users>
+            <user>מנהלי העמותה</user>
+            <user>עובדים</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup29</groupCode>
+        <student>
+            <name>אדיר כהן</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup29/prod/Images/Adir.JPG</imageUrl>
+        </student>
+        <student>
+            <name>נירן בדיחי</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup29/prod/Images/Niran.JPG</imageUrl>
+        </student>
+        <student>
+            <name>יוני ברדה</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup29/prod/Images/Yoni.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup29/prod/Images/newlogo.jpg</projectImageUrl>
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup29/prod/Default.aspx</projectLandingPage>
+    <mobile>
+        <links>
+            <link target="android">
+                <url>
+                    https://build.phonegap.com/apps/351879/download/android
+                    <!-- צריך להעלות לינק -->
+                </url>
+                <QRLink></QRLink>
+            </link>
+        </links>
+    </mobile>
+    <movie>http://www.youtube.com/watch?v=NN9OXPQqZ-k</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup29/prod/Images/Login.png</imageUrl>
+            <description>מסך Login</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup29/prod/Images/Dashboard.png</imageUrl>
+            <description>מסך Dashboard</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup29/prod/Images/VolunteerSearch.png</imageUrl>
+            <description>מסך חיפוש מתנדב</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup29/prod/Images/ActivitySearch.png</imageUrl>
+            <description>מסך חיפוש פעילות</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup29/prod/Images/DogSearch.png</imageUrl>
+            <description>מסך חיפוש כלב</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>דוד בנימין</advisor>
+        <advisor>בנימין בורנפלד</advisor>
+    </advisors>
+    <shortDescription>
+        מערכת המידע תלווה את כלל תהליכי העמותה ותהיה לעמוד השדרה של העמותה, המערכת תסייע בניהול העמותה וקבלת ההחלטות תישענה על פלטי מערכת המידע ויכולותיה לארגן ולעשות שכל בנתונים המוזנים לתוכה. המערכת תיגע בתחומים: ביצוע מעקב ותיעוד של כל בעלי החיים שעברו תחת קורת גג העמותה, ניהול רשימות המתנדבים והקלה משמעותית בשיבוץ לפעילויות השונות, ניהול וריכוז פעילות העמותה, ניהול מלאי של ציוד קבוע ויקר ערך לעמותה, בניית פנל מנהלים אודות הכנסות והוצאות ותזרים המזומנים של העמותה לקבלת תמונה כוללת על הנעשה מבחינה כספית, ניהול הפן השיווקי בעמותה כל זאת על מנת להקל על פעילותה יקרת הערך של העמותה ולסייע לה לקדם את מטרותיה להשגת חזון העמותה. כמו כן פותחה אפליקציית סלולר שתפתח קריאות בזמן אמת למוקדים העירוניים, תאפשר רישום מקדים של מאמצים כחלק מיעול תהליך האימוץ בימי האימוץ ותגדיל את שטח המגע בין המתנדבים לעמותה ולהיפך.
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>ארגון ויעול תהליכי העבודה בעמותה</description>
+            <status>
+                יצירת מסד נתונים מאוחד המאגד את כל המידע של העמותה מערכת אחת
+            </status>
+        </goal>
+        <goal>
+            <description>הגדלת שטח המגע בין המתנדבים הרבים לפעילויות העמותה</description>
+            <status>
+                המתנדבים יקחו חלק פעיל בפעילויות ויוכלו לשבץ עצמם לפעילויות השונות
+            </status>
+        </goal>
+        <goal>
+            <description>מערכת תומכת החלטות ניהוליות בעמותה</description>
+            <status>
+                המערכת נותנת תמונת מצב עדכנית בכל רגע נתון על פעילות העמותה ואף ממליצה להנהלת העמותה על הזמנויות של חסכון בכסף
+            </status>
+        </goal>
+        <goal>
+            <description>התממשקות למאגר הארצי לשיבוב</description>
+            <status>
+                המערכת מושכת ממאגר השבבים הארצי את פרטי הכלב ואף את פרטי בעליו
+            </status>
+        </goal>
+        <goal>
+            <description>פיתוח אפליקציה סלולר לסמארטפון</description>
+            <status>
+                מהווה כמערכת משלימה למערכת המידע ומנצלת את יכולות המסארטפון כגון: צילום תמונות בזמן אמת, שימוש בשירותי המיקום וקבלת מיילים והודעות
+            </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>Dashboard Page</name>
+            <description>
+                הדף הראשי מחולק למספר אזורים: אזור המתנדבים בו קיימים מודולים מוגבלים עבור מתנדבי העמותה. אזור העובדים: בו קיימים המודולים העיקריים של המערכת והוא ניתן לכניסה רק עבור חברי ההנהלה של העמותה. עדכוני העמותה: דף נגלל אשר ניתן לעדכן להוסיף ולשנות הודעות חשובות עבור מתנדבי העמותה. גלריית תמונות הנמשבת מדף הפייסבוק של העמותה. מידע שימושי: זמין עבור כל מתנדבי העמותה בו הם יוכלו למצוא מידע רלוונטי ושוטף. מחוברים לעולם: לינקים לפייסבוק, יוטיוב וכו. שינוי ססמאות והגדות למנהל המערכת, אילו מודולים הזמינים אך ורק למנהל המערכת. וקישור לפייסבוק בו ניתן לעשות לייק לעמותה ולראות מי מחבריכם בפייסבוק אוהב את העמותה.
+            </description>
+            <features/>
+        </module>
+        <module>
+            <name>תכנון פעילות</name>
+            <description>
+                במודול זה ניתן ליצור ארועים חדשים. ניתן בנוסף לחפש ארועים קיימים, לאשר מתנדבים לפעילויות, לשייך כלבים לפעילות ובנוסף ניתן לערוך את פרטי הפעילות עצמה
+            </description>
+            <features>
+                <feature>יצירת ארוע</feature>
+                <feature>חיפוש ארוע</feature>
+                <feature>עריכת ארוע</feature>
+                <feature>שיוך כלבים</feature>
+                <feature>אישור מתנדבים</feature>
+            </features>
+        </module>
+        <module>
+            <name>מתנדבים</name>
+            <description>
+                במודול זה ניתן לרשום מתנדב חדש לעמותה, לראות האם ישנן בקשות התנדבות חדשות, ניתן לחפש מתנדבים, לאשרם או לערוך את פרטיהם, וניתן לבצע שליחת מיילים לרשימה לפי בקשתנו
+            </description>
+            <features>
+                <feature>רישום מתנדב חדש</feature>
+                <feature>בקשות התנדבות חדשות</feature>
+                <feature>ניהול מתנדבים</feature>
+                <feature>שליחת הודעות</feature>
+            </features>
+        </module>
+        <module>
+            <name>כלבים</name>
+            <description>
+                במודול זה ניתן להוסיף כלב חדש למערכת, במידה ויש צורך אז ניתן למשוך חלק גדול מהפרטים עקב העובדה שהתממשקנו עם מאגר השבבים הארצי. ניתן לחפש כלב ולערוך את פרטיו וניתן לנייד כל כלב במערכת לפי הצורך תוך כדי שמירת היסטוריה על מיקומו של הכלב מרגע היכנסו לעמותה.
+            </description>
+            <features>
+                <feature>הוספת כלב למערכת</feature>
+                <feature>חיפוש כלבים</feature>
+                <feature>ניוד כלב</feature>
+            </features>
+        </module>
+        <module>
+            <name>שיבוץ לפעילות</name>
+            <description>
+                במודול זה, חבר המנהלים של העמותה יכול לשבץ באופן עצמאי מתנדבים שונים לפעילות שבתתות אימוץ ומטיילים עם כלבים
+            </description>
+            <features>
+                <feature>שיבוץ מטיילים עם כלבים</feature>
+                <feature>שיבוץ לשבתות אימוץ בפארק</feature>
+            </features>
+        </module>
+        <module>
+            <name>אימוצים</name>
+            <description>
+                במודול זה ניתן להוסיץ מאמצים חדשים, לערוך את פרטיהם, לחפש מאמצים קיימים ולבצע מעקב אחר מאמצים שאימצו כלב ויש חשד כי הם לא יטפלו בכלב בצורה נאותה. במודול זה נעשה שימוש ב-API של גוגל שבעזרתו ניתן לראות את מיקום כל המאמצים ולבחור מסלול רלוונטי לבקרם.
+            </description>
+            <features>
+                <feature>הוספת מאמץ חדש</feature>
+                <feature>חיפוש מאמץ קיים</feature>
+                <feature>מעקב אחר מאמצים</feature>
+            </features>
+        </module>
+        <module>
+            <name>פנסיון</name>
+            <description>
+                במודול זה ניתן להוסיף פנסיון חדש, לחפש פנסיון קיים ולערוך פרטי פנסיון
+            </description>
+            <features>
+                <feature>הוספת פנסיון חדש</feature>
+                <feature>חיפוש פנסיון</feature>
+                <feature>עריכת פרטי פנסיון</feature>
+            </features>
+        </module>
+        <module>
+            <name>כספים</name>
+            <description>
+                במודול זה ניתן לראות את כל הכנסות העמותה, הן מאימוצים והן מתרומות כלליות
+            </description>
+            <features>
+                <feature>ניהול הכנסות</feature>
+            </features>
+        </module>
+        <module>
+            <name>דוחות</name>
+            <description>
+                במודול זה מנהלי העמותה יוכלו להפיק דוחות על מתנדבים, שבתות אימוץ ספציפיות ודוחות שיווק בחיתוכים שונים. לאחר הפקת הדוח הם יוכלו לייצאם לאקסל בלחיצת כפתור
+            </description>
+            <features>
+                <feature>דוח שיווק</feature>
+                <feature>דוח פעילות</feature>
+                <feature>דוח מתנדבים</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול המערכת</name>
+            <description>
+                במודול זה ניתן לערוך, למחוק ולהוסיף הודעות חדשות אשר יוצגו בדף הבית. ניתן ליצור שם משתמש חדש עבור מתנדב אשר נרשם למערכת. וניתן לראות לוג שגיאות אשר נוצרות מטעויות שונות במערכת.
+            </description>
+            <features>
+                <feature>דוח שיווק</feature>
+                <feature>דוח פעילות</feature>
+                <feature>דוח מתנדבים</feature>
+            </features>
+        </module>
+        <module>
+            <name>סרגל המערכת</name>
+            <description>
+                מסרגל זה ניתן להגיע לדף הבית, ניתן להגיע לעמוד תמיכה בו ניתן לפתוח תקלה אשר מגיעה אל מנהלי המערכת. ב-חזון ניתן לראות את חזון העמותה. ב-חדש במערכת ניתן לצפות בסרטוני הדרכה על כל המודולים של המערכת. ובנוסף ניתן להגיע בלחיצת כפתור אל אתר העמותה.
+            </description>
+            <features>
+                <feature>עמוד הבית</feature>
+                <feature>תמיכה</feature>
+                <feature>חזון</feature>
+                <feature>חדש במערכת</feature>
+                <feature>לאתר העמותה</feature>
+            </features>
+        </module>
+        <module>
+            <name>אפליקציה למובייל (אנדרואיד ואייפון)</name>
+            <description>
+                אפליקציה זו תעזור לחזק את הקשר בין המתנדבים לעמותה ותאפשר להם לפתוח קריאות על חייות פצועות או נטושות ולשבץ עצמם לפעילויות השונות
+            </description>
+            <features>
+                <feature>פעילויות העמותה</feature>
+                <feature>הוספת תמונה לכלב</feature>
+                <feature>פתח קריאה</feature>
+                <feature>אמץ כלב</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="jQuery Mobile"/>
+        <technology name="javaScript"/>
+        <technology name="HTML5"/>
+        <technology name="CSS"/>
+        <technology name="AJAX"/>
+        <technology name="Ajax ToolKit"/>
+    </technologies>
+    <challenges>
+        במהלך העבודה נתקלנו בקשיי פיתוח ובאגים מרובים, קשיים בהתממשקות לאתר השבבים הארצי, קשיים בעבודה מול השרת החי, סביבת פיתוח בסיס הנתונים הייתה מורכבת אף היא. בנוסף לכך, באמצע הפיתוח התחלנו לעבוד עם GITHUB, דבר אשר היה קשה מאוד בהתחלה אך הניב פירות מהר מאוד ועזר לנו לרוץ קדימה עם הפיתוח של המערכת.
+    </challenges>
+    <personalNote>
+        שורה תחתונה, כשביקשו מאיתנו לפני שנה לבנות מערכת מידע לא הבנו את המשמעות של כמות שעות העבודה הדרושות, התכנון הסבוך, הריבים והמתחים והמשמעת העצמית הדרושה. אך ככל שעבר הזמן נכנסנו לזה יותר ויותר והרבה בזכות הקשר החזק שנוצר בינינו לבין הנהלת העמותה שאתגרה אותנו כל פעם מחדש והתרשמה ותמכה בכל שלב אליו הגענו. וכשראינו את התוצאה הסופית הולכת ומתקשרת הבנו יותר ויותר שזה היה שווה כל רגע!
+    </personalNote>
+</project>

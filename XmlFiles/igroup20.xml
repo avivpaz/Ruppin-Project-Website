@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>act crm</name>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>מערכת CRM</tag>
+    </tags>
+    <faculty>ie</faculty>
+    <year>2013</year>
+    <customer>
+        <name>act</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup20/test2/assets/img/act_logo2.jpg</logoUrl>
+        <shortDescription>
+            עמותת אקט נינה עמותה לעובדי טלוויזיה וקולנוע בישראל, המספקת שירותים כגון ביטוחים, מתן יעוץ משפטי, הגנה על זכויותיהם וקידום מעמדם המקצועי. העמותה מונה כיום כ700 חברים. המערכת המוצעת הינה מערכת לניהול לקוחות ומידע אשר משלבת אתר תדמיתי ומספקת מסגרת עבודה נוחה לתהליכים מרכזיים בעמותה, במטרה לחסוך בעלויות משאבים וזמן.
+        </shortDescription>
+        <interstedParties>
+            <party>מנהל הפרויקטים ומנכ"ל העמותה</party>
+        </interstedParties>
+        <users>
+            <user>אחראית קשרי חברים</user>
+            <user>נציג מקצועי</user>
+            <user>יושב ראש</user>
+            <user>מנכ"ל</user>
+            <user>חברי העמותה</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup20</groupCode>
+        <student>
+            <name>אפרת אוחנה</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup20/test2/Member_Data/039658893/images/211.JPG</imageUrl>
+        </student>
+        <student>
+            <name>ליבנת פניני</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup20/test2/Member_Data/038191904/images/142.JPG</imageUrl>
+        </student>
+        <student>
+            <name>דביר ריזנמן</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup20/test2/Member_Data/055542338/images/dvir.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup20/test2/assets/img/act_logo2.jpg</projectImageUrl>
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup20/test2/events.aspx</projectLandingPage>
+    <mobile>
+        <links>
+            <link>
+                <url></url>
+                <QRLink/>
+            </link>
+        </links>
+    </mobile>
+    <movie/>
+    <movie></movie>
+    <screenShots>
+        // screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/Login.jpg</imageUrl>
+            <description>דף הבית-אירועים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup20/test2/Candidates.aspx</imageUrl>
+            <description>מסך מועמדים ממתינים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup20/test2/member_page.aspx?id=039658893</imageUrl>
+            <description>מסך כרטיס חבר</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup20/test2/e_mail.aspx</imageUrl>
+            <description>מסך שליחת אימייל</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup20/test2/personal_profile.aspx?id=038191904</imageUrl>
+            <description>מסך פרופיל חברים</description>
+            <imageUrl>http://proj.ruppin.ac.il/igroup20/test2/reg.aspx</imageUrl>
+            <description>טופס הרשמה</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>בני בורנפלד</advisor>
+    </advisors>
+    <shortDescription>
+        מערכת לניהול לקוחות ומידע, מותאם לצרכי הלקוח במטרה לחסוך עלויות, זמן ומשאבים לעמותת אקט. פיתוח המערכת מאפשר לעובדי העמותה וחברי העמותה לעבוד ולהתפתח תחת ממשק נוח ויעיל על גבי דפדפנים סטנדרטיים, כאשר כל נתוני המערכת מאוחסנים על גבי שרת חיצוני
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>תהליך ניהול לקוחות</description>
+            <status>
+                יצירת תהליך מסודר וממוחשב מוביל לשקיפות בכדי למנוע צוואר בקבוק
+            </status>
+        </goal>
+        <goal>
+            <description>מעקב ופיקוח על תהליכים</description>
+            <status>
+                המערכת שומרת מידע על פעולות חשובות, מאחסנת מסמכים רלוונטים ומפיקה דוחו"ת עסקיים
+            </status>
+        </goal>
+        <goal>
+            <description>גיבוי ושליפת מידע באופן קל ומהיר</description>
+            <status>
+                מסד הנתונים של המערכת יחד עם כל מסכי המערכת יושבים על גבי שרת חיצוני
+            </status>
+        </goal>
+        <goal>
+            <description>יצירת אתר תדמיתי עדכני ומתקדם</description>
+            <status>המערכת מכילה אתר תדמיתי הפתוח לקהל הרחב</status>
+        </goal>
+        <goal>
+            <description>יצירת רשת חברתית לחברי העמותה</description>
+            <status>
+                המערכת מקנה פלטפורמה חברתית אשר תעזור לחברי העמותה לקדם את עצמם בתעשייה
+            </status>
+        </goal>
+    </goals>
+    <module>
+        <name>דף הבית-אירועים</name>
+        <description>
+            דף המציג את כל ימי העיון/האירועים שמציעה העמותה, פתוח למשתמשים פנימיים, ומשתמשים חיצוניים בעלי סיסמא, בעת לחיצה על יום עיון, בתור משתמש חיצוני ניתן להצטרף/ או להסיר את עצמך מאירוע, בתור משתמשים פנימיים ניתן להסיר או להוסיף אירוע, ניתן לערוך את הסרגל הצידי ועוד.
+        </description>
+        <features>
+            <feature>הוספת אירוע</feature>
+            <feature>הסרת אירוע</feature>
+            <feature>הוספת חבר לאירוע</feature>
+            <feature>מחיקת חבר מאירוע</feature>
+            <feature>עריכת סרגל הפקות וכתבות</feature>
+        </features>
+    </module>
+    <module>
+        <name>Home Page</name>
+        <description>
+            דף הבית כולל בתוכו גישה לימי עיון, אירועים והפקות צילומים , כאשר המרכיב העיקרי הינו האירועים - לוח שנה המציין את האירועים הקיימים לאותו יום והחברים המשתתפים בו
+        </description>
+        <features>הוספת אירוע</features>
+        <features>מחיקת אירוע</features>
+        <features>הוספת חבר אירוע</features>
+        <features>מחיקת חבר אירוע</features>
+    </module>
+    <module>
+        <name>מסך מועמדים ממתינים</name>
+        <description>
+            מסך המציג את שלבי קבלת חבר לעמותה ואת האישורים שעליו לעבור בידי הגורמים הרלוונטים, ניתן לראות את תאריך הגשת הבקשה ותאריכי האישור ומספר הימים אשר המועמד ממתין לאישור אצל כל גורם. ניתן לעבור לכרטיס מועמד, לאשר/לדחות מועמד, לכתוב חוות דעת ולסווגו למחלקה המתאימה.
+        </description>
+        <features>
+            <feature>צפייה בכרטיס חבר</feature>
+            <feature>אישור מועמד</feature>
+            <feature>דחיית מועמד</feature>
+            <feature>כתיבת חוות דעת</feature>
+            <feature>סיווג חבר</feature>
+        </features>
+    </module>
+    <module>
+        <name>עריכת פרופיל אישי</name>
+        <description>
+            מסך המאפשר עריכת הפרופיל האישי של חבר מסוים, באופן כללי הפרופיל פותח על מנת לקדם את מעמדם המקצועי של חברי העמותה, אשר מציג מידע אודות הניסיון המקצועי של חבריה גלריית תמונות ועוד. בפרופיל יכולים לצפות כלל הציבור אין צורך בסיסמא. ברגע שחבר אושר היוזר שלו הופך לפעיל נוצר לו פרופיל בסיסי ואותו הוא יכול לערוך. ניתן לצפות בפרופיל של חברים אחרים ולהוסיף תגובות אחד לשני
+        </description>
+        <features>
+            <feature>שינוי רקעים</feature>
+            <feature>שינוי פרטים בסיסיים</feature>
+            <feature>הוספת תמונות</feature>
+            <feature>צפייה בפרופיל חברים אחרים</feature>
+            <feature>הוספת תמונות</feature>
+            <feature>כתיבת תגובות</feature>
+        </features>
+    </module>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="jQuery"/>
+        <technology name="AJAX"/>
+    </technologies>
+    <challenges>
+        *אתגר בשילוב ואיחוד של גרסאות שונות במהלך הפיתוח *אתגר בבניית מודולים מספקים עבור העמותה
+    </challenges>
+    <personalNote>
+        שמחנו לבצע את הפרויקט. הפרויקט תרם לנו רבות הן בידע מקצועי והן בשיפור יכולת הלמידה העצמית
+    </personalNote>
+</project>

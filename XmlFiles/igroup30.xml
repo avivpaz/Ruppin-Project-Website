@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>מערכת מידע לעמותת אס או אס חיות ישראל</name>
+    <faculty>IE</faculty>
+    <year>2013</year>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>עמותה</tag>
+        <tag>אס או אס חיות</tag>
+        <tag>SOS Pets</tag>
+        <tag>אימוץ</tag>
+        <tag>אומנה</tag>
+        <tag>בעלי חיים</tag>
+        <tag>משימות עמותה</tag>
+        <tag>אבדות ומציאות</tag>
+        <tag>ימי אימוץ</tag>
+    </tags>
+    <customer>
+        <name>אס או אס חיות ישראל</name>
+        <logoUrl>
+            http://www.sospets.co.il/img/fck/images/Logo/SosLogo.gif
+        </logoUrl>
+        <shortDescription>
+            עמותה שכל מטרתה וחזונה הינם הפחתת סבלן של חיות המחמד בישראל
+        </shortDescription>
+        <interstedParties>
+            <party>יושבת ראש - ריקי בצרי</party>
+            <party>מנהל כללי - ארנון</party>
+        </interstedParties>
+        <users>
+            <user>מתנדב מתחיל</user>
+            <user>מתנדב ותיק</user>
+            <user>עובד עמותה</user>
+            <user>מנהל מערכת</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup30</groupCode>
+        <student>
+            <name>אלכס כץ</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup30/prod/UserImages/alechko.jpg</imageUrl>
+        </student>
+        <student>
+            <name>יובל הרציגר</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup30/prod/UserImages/yuvalhrz.jpg</imageUrl>
+        </student>
+        <student>
+            <name>איתי דשבסקי</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup30/prod/UserImages/dashevsk.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://www.sospets.co.il/img/fck/images/Logo/SosLogo.gif</projectImageUrl>
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup30/prod/</projectLandingPage>
+    <mobile>
+        <links>
+            <link target="web mobile">
+                <url>http://proj.ruppin.ac.il/igroup30/prod/LostAndFounds/reportlossmobile.aspx</url>
+                <!-- <QRLink></QRLink> -->
+            </link>
+        </links>
+    </mobile>
+    <movie>http://www.youtube.com/watch?v=EBZDwGq_RDs</movie>
+    <screenShots>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup30/prod/documentation/snap1.png</imageUrl>
+            <description>מסך הכניסה למערכת</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup30/prod/documentation/snap2.png</imageUrl>
+            <description>מסך צפיה במשימות העמותה</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup30/prod/documentation/snap3.png</imageUrl>
+            <description>מסך הזנת אימוץ חדש למערכת</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup30/prod/documentation/snap4.png</imageUrl>
+            <description>מסך אדמיניסטרציית המשתמשים במערכת</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup30/prod/documentation/snap5.png</imageUrl>
+            <description>מסך מובייל לדיווח אבדה חדשה</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>נעם וקסר</advisor>
+        <advisor>בנימין בורנפלד</advisor>
+    </advisors>
+    <shortDescription>
+        מהות הפרויקט היא פיתוח מערכת פנים ארגונית למתנדבי אס או אס חיות ופסיליטציה של תהליכים עיקריים בעמותה
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>יצירת קרקע לכל התהליכים העיקריים בעמותה</description>
+            <status>
+                המערכת תומכת בתהליכים העיקריים והקונספט אושר על ידי העמותה
+            </status>
+        </goal>
+        <goal>
+            <description>הגדלת הסיכוי למציאת בעלי חיים אבודים</description>
+            <status>
+                האלגוריתם החכם נבדק ונמצא תקין, טרם שוחרר לציבור הרחב
+            </status>
+        </goal>
+        <goal>
+            <description>הקלה על מתנדבים בימי האימוץ</description>
+            <status>
+                מתוכנן ביצוע פיילוט ביום אימוץ, בליווי חברי הפרויקט
+            </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>אשף האימוץ</name>
+            <description>
+                תומך במתנדבים בימי האימוץ ובמזכירת העמותה המאשרת את האימוצים
+            </description>
+            <features>
+                <feature>רישום מאמצים</feature>
+                <feature>מילוי טפסים על אימוץ בעלי חיים</feature>
+                <feature>שימור הסטוריית אימוצים</feature>
+            </features>
+        </module>
+        <module>
+            <name>מציאות ואבדות</name>
+            <description>
+                מודול בעל אלגוריתם חכם לחיבור בין מדווחי חיות אבודות
+            </description>
+            <features>
+                <feature>אלגוריתם העושה שימוש במיקום גיאוגרפי ובחותמות זמן</feature>
+                <feature>שליחת מייל עם מדווחים רלוונטיים</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול המשימות</name>
+            <description>
+                מודול המאפשר יצירת משימות חדשות, ציוות מתנדבים וקבלת התראות
+            </description>
+            <features>
+                <feature>יצירת משימות</feature>
+                <feature>שליחת מיילים רלוונטיים לחברי משימה</feature>
+                <feature>עריכה וצפיה במשימות</feature>
+            </features>
+        </module>
+        <module>
+            <name>Dashboard</name>
+            <description>
+                לוח מחוונים הנועד לתת מבט על זריז לדרג המנהל בתחילת היום
+            </description>
+            <features>
+                <feature>תרשימים שונים</feature>
+                <feature>תקצירי משימות</feature>
+            </features>
+        </module>
+        <module>
+            <name>מאגר המידע</name>
+            <description>מודול צפיה והרחבה של ישויות המערכת</description>
+            <features>
+                <feature>צפיה בישויות במערכת</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול המשתמשים</name>
+            <description>מודול ניהול ההרשאות במערכת</description>
+            <features>
+                <feature>הוספת משתמשים</feature>
+                <feature>עריכת פרטים</feature>
+                <feature>הענקת רמות גישה</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="MS SQL Server"/>
+        <technology name="Transact-SQL"/>
+        <technology name="JavaScript"/>
+        <technology name="jQuery"/>
+        <technology name="jQuery Mobile"/>
+        <technology name="jQuery UI"/>
+        <technology name="Lightbox 2.0"/>
+        <technology name="Google Maps API"/>
+    </technologies>
+    <challenges>
+        האתגר המרכזי הינו סנכרון עבודת פיתוח של צוות ויצירת שפה משותפת למערכת אחידה
+    </challenges>
+    <personalNote></personalNote>
+</project>

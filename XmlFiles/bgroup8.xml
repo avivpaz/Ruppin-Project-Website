@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>מערכת מידע לניהול חוות סוסים ושיעורי רכיבה</name>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>חוות סוסים</tag>
+    <tag>מערכת שעות</tag>
+    <tag>asp.net</tag>
+  </tags>
+  <faculty>BA</faculty>
+  <year>2013</year>
+  <customer>
+    <name>חוות הרלב</name>
+    <logoUrl>http://proj.ruppin.ac.il/bgroup8/prod/documentation/harlev.jpg</logoUrl>
+    <shortDescription>
+      הלקוח הינו המנהלת של חוות הסוסים הרלב הכוללת פנסיון סוסים ושיעורי רכיבה.
+    </shortDescription>
+    <interstedParties>
+      <party>מנכ"ל</party>
+    </interstedParties>
+    <users>
+      <user>מנכ"ל</user>
+      <user>מדריכים</user>
+      <user>מזכירות</user>
+      <user>לקוחות</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>bgroup8</groupCode>
+    <student>
+      <name>עמיחי לביא</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup8/prod/documentation/aLavi.jpg</imageUrl>
+    </student>
+    <student>
+      <name>עינבל שאול</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup8/prod/documentation/iShaul.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup8/prod/documentation/harlev.jpg</projectImageUrl>
+  // this is the main image that will represent your project
+  <projectLandingPage>http://proj.ruppin.ac.il/bgroup8/prod/Default.aspx</projectLandingPage>
+  <!--
+<mobile>
+    <links>
+      <link target = "android">
+        <url> </url>
+        <QRLink> </QRLink>
+      </link>
+      <link target = "ios">
+        <url>  </url>
+        <QRLink>  </QRLink>
+      </link>
+      <link target = "web mobile">
+        <url> </url>
+        <QRLink> </QRLink>
+      </link>
+    </links>
+  </mobile>
+-->
+  <movie>https://www.youtube.com/watch?v=0IRJTBiWndI</movie>
+  <screenShots>
+    // 5 screen shots of the application
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup8/prod/documentation/s1.png</imageUrl>
+      <description>מסך עריכת פרטי לקוח</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup8/prod/documentation/s2.png</imageUrl>
+      <description>מסך עריכת לקוח למערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup8/prod/documentation/s3.png</imageUrl>
+      <description>מסך מחיקת לקוח</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup8/prod/documentation/s4.png</imageUrl>
+      <description>מסך קביעת שיעור רכיבה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup8/prod/documentation/s5.png</imageUrl>
+      <description>
+        מסך מערכת שעות- תצוגת זמנים פנויים לקביעת שיעור רכיבה
+      </description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>בני בורנפלד</advisor>
+    <advisor>תמי צוקרמן</advisor>
+  </advisors>
+  <shortDescription>
+    המערכת עוסקת הן בניהול משאבי החווה (סוסים, מדריכים, לקוחות, קבוצות לימוד) והן בניהול מערכת שעות. עיקר המערכת עוסק בניהול מערכת השעות - איך להתמודד עם משאבים מוגבלים כאשר רוצים לשבץ שיעור חדש. באמצעות אלגוריתם שמתחשב במשאבים שהוזכרו לעיל, ניתן למצוא את הזמנים המתאימים לשיבוץ כל שיעור (ממשק גרפי)
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>הגדלת יעילות הארגון</description>
+      <status>
+        הלקוח יכול בלחיצת כפתור למצוא את הזמנים לשיבוץ השיעור ללא התנגשויות
+      </status>
+    </goal>
+    <goal>
+      <description>לאפשר סנכרון בין משאבי החווה השונים</description>
+      <status>
+        המערכת שומרת מידע על כל משאבי החווה במערכת אחת דבר המאפשר סנכרון בינהם
+      </status>
+    </goal>
+    <goal>
+      <description>להגדיל את רווחיות החווה</description>
+      <status>
+        בניית מערכת השעות בצורה חצי אוטומטית גורמת לניצול טוב יותר של משאבי החווה ובכך לחיסכון וכן מאפשרת לקבוע יותר שיעורי רכיבה. כמו כן, כתוצאה מכך יצטרכו פחות כ"א
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>ניהול לקוחות</name>
+      <description>
+        הוספת/עריכת/מחיקת וצפייה בפרטי לקוחות ויצירת חשבון אוטומטי לכל לקוח
+      </description>
+      <features>
+        <feature>רישום לקוח</feature>
+        <feature>מחיקת לקוח</feature>
+        <feature>עריכת פרטי לקוח</feature>
+        <feature>צפייה בפרטי לקוח</feature>
+        <feature>שיוך לקוח לקבוצת רכיבה</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול מדריכים</name>
+      <description>
+        הוספת/עריכת/מחיקת וצפייה בפרטי מדריכים ויצירת חשבון אוטומטי לכל מדריך
+      </description>
+      <features>
+        <feature>רישום מדריך</feature>
+        <feature>מחיקת מדריך</feature>
+        <feature>עריכת פרטי מדריך</feature>
+        <feature>צפייה בפרטי מדריך</feature>
+        <feature>שיוך מדריך לקבוצת רכיבה</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול סוסים</name>
+      <description>
+        הוספת/עריכת/מחיקת וצפייה בפרטי סוסי החווה וסוסי הפנסיון
+      </description>
+      <features>
+        <feature>הוספת סוס</feature>
+        <feature>מחיקת סוס</feature>
+        <feature>עריכת פרטי סוס</feature>
+        <feature>צפייה בפרטי סוס</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול קבוצות</name>
+      <description>הוספת/עריכת/מחיקת/צפייה בפרטי קבוצות הרכיבה</description>
+      <features>
+        <feature>הוספת קבוצה</feature>
+        <feature>מחיקת קבוצה</feature>
+        <feature>עריכת פרטי קבוצה</feature>
+        <feature>צפייה בפרטי קבוצה</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול רחבות רכיבה</name>
+      <description>הוספת/עריכת/מחיקת/צפייה בפרטי רחבות הרכיבה</description>
+      <features>
+        <feature>הוספת רחבת רכיבה</feature>
+        <feature>מחיקת רחבת רכיבה</feature>
+        <feature>עריכת פרטי רחבת רכיבה</feature>
+        <feature>צפייה בפרטי רחבת רכיבה</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול מערכת השעות של שיעורי הרכיבה</name>
+      <description>הוספת/עריכת/מחיקת/צפייה של שיעור רכיבה</description>
+      <features>
+        <feature>
+          הצגה גרפית של כל הזמנים האפשריים בהם אפשר לשבץ שיעור לקבוצה. כל הסוסים הפנויים בכל זמן בדיוק של 5 דקות
+        </feature>
+        <feature>הוספת שיעור רכיבה</feature>
+        <feature>מחיקת שיעור רכיבה</feature>
+        <feature>עריכת פרטי שיעור רכיבה</feature>
+        <feature>צפייה בפרטי שיעור רכיבה</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="Entity Framework"/>
+    <technology name="Linq to Entities"/>
+    <technology name="fullcalendar"/>
+    <technology name="Jquery-ui"/>
+    <technology name="HTML5"/>
+  </technologies>
+  <challenges>
+    <challenge>למידת הטכנולוגיות השונות בזמן בניית הפרוייקט</challenge>
+    <challenge>
+      באגים מובנים בטכנולוגיות שצריך היה למצוא להם דרכים עקיפות
+    </challenge>
+    <challenge>
+      בניית האלגורתים להצגת כל הזמנים הפנויים בהם ניתן לקבוע שיעור בלהתחשב בסוסים הפנויים, בשעות בהן עובד המדריך ואם יש לו שיעורים ועוד -
+    </challenge>
+  </challenges>
+  <personalNote></personalNote>
+</project>

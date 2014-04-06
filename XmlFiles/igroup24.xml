@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+
+    <name> מערכת מידע להקלטה ושיתוף מסלולי טיולים  </name>
+
+    <type> מערכות מידע </type>
+    <tags>
+        // תגדירו תגיות שיעזרו לחפש ולמיין את הפרויקט שלכם
+        <tag> אפליקציה </tag>
+        <tag> android </tag>
+    </tags>
+
+    <faculty>IE</faculty>
+    <year>2013</year>
+
+    <customer>
+        <name> myTrack </name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/trip.png</logoUrl>
+        <shortDescription>המערכת הינה רעיון מקורי של חברי הצוות אשר במקור היתה אמורה לשמש רוכבי אופניים אך לאחר מספר גלגולים נהפכה נהפכה למערכת אשר יכולה לשמש את כל סוגי המטיילים</shortDescription>
+        <interstedParties>
+            <party>כל מטייל עם סמארטפון</party>
+        </interstedParties>
+        <users>
+            <user>מטיילים חובבנים ומקצועיים</user>
+            <user>מטיילים,רוכבי אופניים, רכבי שטח, טרקטורונים ועוד</user>
+        </users>
+    </customer>
+
+    <students>
+        <groupCode>igroup24</groupCode>
+        <student>
+            <name> מירב טסלר</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/tessler.jpg</imageUrl>
+        </student>
+        <student>
+            <name>לינור אבני</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/linor.jpg</imageUrl>
+        </student>
+        <student>
+            <name>אושרי רצון</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/oshri.jpg</imageUrl>
+        </student>
+        <student>
+            <name>אסי פודים</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/asi.jpg</imageUrl>
+        </student>
+    </students>
+
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/myTrack.png</projectImageUrl> // this is the main image that will represent your project
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup24 </projectLandingPage>
+
+    <mobile>
+        <links>
+            <link target = "android">
+                <url> https://build.phonegap.com/apps/274563/download/android </url>
+                <QRLink> https://chart.googleapis.com/chart?chs=116x116&amp;cht=qr&amp;chl=http://build.phonegap.com/apps/274563/install/?qr_key=AhwFg2m7QHjfxLkszVt5&amp;chld=L|1&amp;choe=UTF-8 </QRLink>
+            </link>
+            <!--<link target = "ios">
+			<url> the download url goes here </url>
+			<QRLink> QR code link </QRLink>
+		</link>
+		<link target = "web mobile">
+			<url> the url goes here </url>
+			<QRLink> QR code link </QRLink>
+		</link>-->
+        </links>
+    </mobile>
+
+    <movie>http://youtu.be/ii4K7hk0Yd4</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/home.png</imageUrl>
+            <description> מסך הבית </description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/menu.png</imageUrl>
+            <description> תפריט ראשי </description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/record.png</imageUrl>
+            <description> מסך הקלטת מסלול </description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/lm.png</imageUrl>
+            <description> מסך הכנסת נקודת ציון </description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup24/prod/Images/full.png</imageUrl>
+            <description> מסך מסלול מלא </description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor> מר בני בורנפלד</advisor>
+        <advisor> ד"ר דיצה ביימל </advisor>
+    </advisors>
+    <shortDescription>  אפליקצית myTrack הינה אפליקציה סלולרית - מבוססת מיקום להקלטת מסלולי טיול ושיתופם עם קהל המטיילים.</shortDescription>
+    <goals>
+        <goal>
+            <description> מאגר מסלולים גדול שיכסה את כל אזורי הארץ </description>
+            <status> הלקוח בדק את המודול בזמן תהליך ההטמעה ואישר את הגברת היעילות </status>
+        </goal>
+        <goal>
+            <description> ממשק נוח, ברור ופשוט להפעלה	מערכת יציבה עם</description>
+            <status> המערכת עברה בדיקות רבות כדי לוודא את יציבותה ובנוסף נבחנה ע"י מספר משתמשים כדי לבדוק האם הממשק הוא ידידותי למשתמש.  </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name> הקלטת מסלול </name>
+            <description>ע"י שימוש בגי.פי.אס של המכשיר, ניתן לעקוב אחר המשתמש ולשמור את הקורדינאטות בהן הוא עבר. צירוף כל הקורדינאטות ע"י קו, יוצר מסלול טיול מושלם.</description>
+            <features>
+                <feature>הכנסת נקודת ציון למסלול</feature>
+                <feature>מילוי נתונים אודות המסלול שהוקלט</feature>
+            </features>
+        </module>
+        <module>
+            <name> חיפוש מסלול </name>
+            <description>ניתן לחפש מסלול שהוקלט ע"י משתמש אחר לפי מגוון רחב של פרמטרים. את המסלול הנבחר ניתן לשמור במועדפים ו/או לנווט בעזרתו בשטח.</description>
+            <features>
+                <feature>חיפוש חופשי לפי מילת מפתח</feature>
+                <feature>הוספת המסלול למועדפים</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name = "ASP.NET"/>
+        <technology name = "C#"/>
+        <technology name = "HTML5 + CSS3"/>
+        <technology name = "Google API"/>
+        <technology name = "SQL Server"/>
+        <technology name = "jQuery Mobile"/>
+        <technology name = "JavaScript"/>
+    </technologies>
+    <challenges>
+        עבודה עם קורדינאטות- הכנסתן ושליפתן מבסיס הנתונים היתה מאתגרת תוך התחשבות ברמת דיוק המסלול וחסכון במקום. נדרשו פתרונות יצירתיים כדי ליצור מערכת מדויקת שתדע להתמודד עם בעיה גדולה בתחום הסמארטפונים - חסכון בסוללה.
+    </challenges>
+    <personalNote>
+    </personalNote>
+</project>

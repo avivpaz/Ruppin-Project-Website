@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>אתר אינטרנט בתחום הגלישה</name>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>surfmatch</tag>
+  </tags>
+  <faculty>BA</faculty>
+  <year>2013</year>
+  <customer>
+    <name>יצרני גלשנים</name>
+    <logoUrl>http://proj.ruppin.ac.il/bgroup11/prod/Images/Logo/logohome.jpg</logoUrl>
+    <shortDescription>
+      תאור של הלקוח בלא יותר מ30 מילים: הלקוחות העיקריים של האתר הם יצרני הגלשנים השונים בארץ וקהל הגולשים בגילאי 15-26 החשופים יותר לאתר. אופי מערכת האתר מקשר בין השניים ויכול לתרום להרחבת תעשיית הגלישה המקומית
+    </shortDescription>
+    <interstedParties>
+      <party>צוות האתר</party>
+      <party>יצרני גלשנים</party>
+      <party>גולשים</party>
+      <party>בתי ספר</party>
+      <party>חנויות</party>
+    </interstedParties>
+    <users>
+      <user>יצרני גלשנים</user>
+      <user>לקוחות</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>bgroup11</groupCode>
+    <student>
+      <name>שי אברהם</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup11/prod/Images/Students/shay.jpg</imageUrl>
+    </student>
+    <student>
+      <name>יניב גלנטי</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup11/prod/Images/Students/yaniv.jpg</imageUrl>
+    </student>
+    <student>
+      <name>יוסי עובד</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup11/prod/Images/Students/yossi.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup11/prod/Images/Screenshots/home_page.png</projectImageUrl>
+  // this is the main image that will represent your project
+  <projectLandingPage>http://proj.ruppin.ac.il/bgroup11/prod/</projectLandingPage>
+  <movie>http://youtu.be/O-m8z2Gsm6U</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup11/prod/Images/Screenshots/home_page.png</imageUrl>
+      <description>מסך הבית</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup11/prod/Images/Screenshots/match_step1.png</imageUrl>
+      <description>התאמת גלשן - שלב 1</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup11/prod/Images/Screenshots/match_step2.png</imageUrl>
+      <description>התאמת גלשן - שלב 2</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup11/prod/Images/Screenshots/single_surfboard.png</imageUrl>
+      <description>דף תצוגה של גלשן יחיד</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup11/prod/Images/Screenshots/shaper_profile.png</imageUrl>
+      <description>דף פרופיל של שייפר</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>ניר כהן</advisor>
+    <advisor>עמית מאיר</advisor>
+  </advisors>
+  <shortDescription>
+    SURFMATCH הינו אתר המיועד להכיל ולעדכן את כל הקשור לצרכיו של הגולש הישראלי תוך מתן המענה הרחב והטוב ביותר בתחום הגלישה. במרכז פעילותו של האתר קיימת האפשרות לחפש גלשן לפי מאפיינים אשר משפיעים על רכישת גלשן כזה או אחר.
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>הגברת החשיפה ליצרני גלשנים בינוניים וקטנים</description>
+      <status>ניסיונות להשגת יצרנים לצורך שימוש במערכת</status>
+    </goal>
+    <goal>
+      <description>
+        שיפור הליך אסיפת המידע לצורך רכישה וחווית הגלישה באתרים בתחום הגלישה
+      </description>
+      <status>
+        האתר בעל ממשק ידידותי ואינטרקטיבי למשתמש והמערכת מאפשרת התאמת גלשן ללקוח ויצירת קשר עם היצרן
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>התאמת גלשן</name>
+      <description>
+        תאור קצר של המודול בלא יותר ב30 מילים: הלקוח מזין נתונים אישיים רלוונטים ומתקבלת בפניו תצוגה של גלשנים העונים על הדרישות. באפשרותו להציג פירוט על גלשן מסויים וחוות דעת עליו. במידה והוא מעוניין בו, בלחיצה אחת הוא יוצר קשר עם היצרן לגבי אותו גלשן. היצרן והלקוח מקבלים דיווח למייל באותו עניין ומכאן ממשיכים הלאה אל הרכישה המתקיימת מחות לגבולות המערכת.
+      </description>
+      <features>
+        <feature>הזנת נתונים</feature>
+        <feature>יצירת קשר לרכישה</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול מלאי גלשנים במערכת</name>
+      <description>
+        תאור קצר של המודול בלא יותר ב30 מילים: היצרן נרשם למערכת האתר ולאחר בירור פרטיו באופן אישי, מקבל אישור להזין את הגלשנים שלו אל מאגר המערכת. באפשרותו של היצרן להוסיף, לעדכן או למחוק גלשנים ברשותו. תוצאות ההתאמה מתעדכנות באופן אוטומטי לפי שינויים במאגר זה.
+      </description>
+      <features>
+        <feature>הוספת/עדכון/מחיקת גלשן</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="javascript"/>
+    <technology name="jQuery"/>
+  </technologies>
+  <challenges>
+    תאור של האתגרים המרכזיים עמם התמודדתם בפרויקט: 1. גיוס יצרנים לצורך שימוש במערכת. 2. הקמת מערכת שתדע להתאים את הגלשן בצורה פשוטה וטובה ביותר 3. הקמת מערך תגובות הן של הפורום והן של חוות דעת על הגלשן
+  </challenges>
+  <personalNote></personalNote>
+</project>

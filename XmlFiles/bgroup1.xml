@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>Train On Time</name>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>רכבת ישראל</tag>
+    <tag>זמן אמת</tag>
+    <tag>TOT</tag>
+  </tags>
+  <faculty>BA</faculty>
+  <year>2013</year>
+  <customer>
+    <name>רכבת ישראל</name>
+    <logoUrl>http://proj.ruppin.ac.il/bgroup1/prod/images/logo/Israel-Railway-Logo.jpg</logoUrl>
+    <shortDescription>
+      אפליקציית Train On Time רכבת ישראל בזמן אמת מדוייק ונגיש בכל מכשיר סלולרי
+    </shortDescription>
+    <interstedParties>
+      <party>סמנכ"ל מערכות מידע ברכבת ישראל</party>
+    </interstedParties>
+    <users>
+      <user>נוסעי רכבת ישראל</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>bgroup1</groupCode>
+    <student>
+      <name>Liad Kadosh</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup1/prod/images/students/Liad.jpg</imageUrl>
+    </student>
+    <student>
+      <name>Roi Schragenheim</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup1/prod/images/students/Roi.jpg</imageUrl>
+    </student>
+    <student>
+      <name>Koby Metsuba</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup1/prod/images/students/Koby.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup1/prod/images/logo/TrainOnTime.png</projectImageUrl>
+  <projectLandingPage>http://responsivepx.com/?proj.ruppin.ac.il%2Fbgroup1%2Fprod%2Fgui%2F#360x640</projectLandingPage>
+  <mobile>
+    <links>
+      <link target="android"><url>https://www.dropbox.com/s/99kesaov7rj6v7u/TOT.apk</url><QRLink>http://proj.ruppin.ac.il/bgroup1/prod/images/QR_code/QRcode.png</QRLink>
+      </link>
+      <!--
+<link target = "ios">
+        <url> unavailable </url>
+        <QRLink>  </QRLink>
+      </link>
+-->
+    </links>
+  </mobile>
+  <movie>http://www.youtube.com/watch?v=9gWA9uahN1c</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup1/prod/images/screenShots/mainScreen.png</imageUrl>
+      <description>Main Menu</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup1/prod/images/screenShots/searchPage.png</imageUrl>
+      <description>Search Page</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup1/prod/images/screenShots/searchResults.png</imageUrl>
+      <description>Search Results</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup1/prod/images/screenShots/laneInfo.png</imageUrl>
+      <description>Lanes Information</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup1/prod/images/screenShots/lanesMap.png</imageUrl>
+      <description>Lanes Map</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>בני ברונפלד</advisor>
+    <advisor>עמית רכבי</advisor>
+    <advisor>תמי צוקרמן</advisor>
+  </advisors>
+  <shortDescription>
+    מהיום, באמצעות האפליקציה, ניתן יהיה ליהנות ממידע נגיש בכל מכשיר סלולרי חכם - מידע בזמן אמת אודות המסלולים ולוח הזמנים של הרכבות בישראל. אפליקציית Train On Time, הינה אפליקציה המבוססת על חכמת ההמון - רשת נוסעים חברתית. האפליקציה עושה שימוש במיקום הנוסעים המשתמשים בה, ולצורך כך, נוסע העולה לרכבת יתבקש לדווח בלחיצת כפתור כי הוא נמצא ברכבת. כך יוכלו כלל הנוסעים המשתמשים באפליקציה להנות מן המידע אודות מיקום הרכבות מתוך דיווח "אני ברכבת" של הנוסעים האחרים. באמצעות דיווח זה, יתעדכנו באופן שוטף זמני ההגעה של הרכבת לכל תחנות הביניים עד לתחנה האחרונה של רכבת זו – המידע יהיה זמין לכולם ועדכני.
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>מידע זמין ונגיש</description>
+      <status>
+        האפליקציה זמינה בכל מכשיר סלולרי חכם ומספקת את כל המידע הדרוש לנוסע
+      </status>
+    </goal>
+    <goal>
+      <description>מידע בזמן אמת</description>
+      <status>
+        חכמת ההמון - רשת הנוסעים החברתית תספק מידע זמן אמת לכל המשתמשים
+      </status>
+    </goal>
+    <goal>
+      <description>שיפור רמת השירות הניתנת לנוסעי הרכבת</description>
+      <status>
+        ייעול זמני הנוסעים יביא בהכרח לרמת שירות גבוהה יותר וישפר את אמון הנוסעים ברכבת ישראל
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>מסך החיפוש</name>
+      <description>
+        עם פתיחת מסך החיפוש, ממליצה האפליקציה למשתמש על התחנה הקרובה ביותר למקום הימצאו. כמו כן, יוכל המשתמש כבר כעת, להפעיל ניווט אוטומטי בלחיצת כפתור אחת בלבד באמצעות waze. בנוסף, תספק האפליקציה בתחתית העמוד, מידע אודות המסלולים האחרונים בהם עשה שימוש הנוסע
+      </description>
+      <features>חפש תחנה בתצוגה מפתית</features>
+      <features>הגדרת מאפייני החיפוש</features>
+      <features>מסלולים אחרונים</features>
+    </module>
+    <module>
+      <name>מודול זמן אמת</name>
+      <description>
+        מודול זמן אמת, הינו המודות המרכזי באמצעותו נאגרים דיווחי הנוסעים, מסוננים לנתוני אמת ומפעילים אלגוריתם ייחודי שתוצאתו תצביע עלל האיחור הצפוי בהשוואה לזמן המתוכנן של הרכבת
+      </description>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="SQL Server"/>
+    <technology name="HTML5 + CSS 3.0"/>
+    <technology name="jQuery Mobile"/>
+    <technology name="javaScript"/>
+  </technologies>
+  <challenges>
+    חיבור לבסיס מידע חיצוני קיים באמצעות webService נוספת שכבת נתונים חדשה בבסיס נתונים פנימי, ע"מ לתמוך בניהול משתמשים ובמידע זמן אמת אלגוריתם זמן אמת - מנגנון מורכב למדי, העושה שימוש בכלים לעיבוד בסיס נתונים לצד פונקציות צד שרת והפעלת רכיבי מיקום ופונקציות בצד לקוח עבודת צוות, סנכרון, למידה תוך כדי תנועה הצגות סטאטוס לבכירים ברכבת ישראל אחת לחודש-חודשיים
+  </challenges>
+  <personalNote>
+    פרוייקט מאתגר, שכבר בשלבים מוקדמים מאוד גרם לנו לעסוק בו תוך כדי הנאה וכמיהה. רמת המורכבות של הפרוייקט קיבלה תפניות רבות, ולמעשה, הושפעה מדרישות הלקוחות במהלך הפרוייקט (סוג של רוטינת עבודה אג'ילית). שמחים על עבודת הצוות המדמהימה וההזדמנות להתנסות בפרוייקט מורכבת מקצה לקצה. אנו נמשיך לפתח את האפליקציה עד לרמת בשלות שתאפשר העלאתה בתפוצה רחבה לשימוש נוסעי רכבת ישראל. מאמינים ומצפים להצלחת המיזם, רואי, קובי וליעד.
+  </personalNote>
+</project>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>
+        אפליקציה סלולארית עבור אוהדי קבוצות כדורגל ובפרט מכבי נתניה
+    </name>
+    <type>אפליקציות</type>
+    <tags>
+        // תגדירו תגיות שיעזרו לחפש ולמיין את הפרויקט שלכם
+        <tag>אפליקציה</tag>
+        <tag>עמותה</tag>
+        <tag>מכבי נתניה</tag>
+    </tags>
+    <faculty>IE</faculty>
+    <year>2013</year>
+    <customer>
+        <name>עמותת אוהדי מכבי נתניה</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup22/prod/images/logoAmuta.jpg</logoUrl>
+        <shortDescription>
+            הארגון הינו עמותה ללא מטרות רווח אשר הוקמה כדי לייצג את אוהדי מכבי נתניה ולתת מענה לצרכי אוהדי מכבי נתניה להוות בית ומסגרת מאגדת, תומכת ומקדמת לרווחת אוהדי מכבי נתניה.
+        </shortDescription>
+        <interstedParties>
+            <party>אוהדי מכבי נתניה</party>
+            <party>עמותת אוהדי מכבי נתניה</party>
+        </interstedParties>
+        <users>
+            <user>מנהל האפליקציה</user>
+            <user>אוהדי כדורגל</user>
+            <user>אוהדי מכבי נתניה בפרט</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup22</groupCode>
+        <student>
+            <name>מיכאל זיסו</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup22/prod/images/miki.jpg</imageUrl>
+        </student>
+        <student>
+            <name>טל עזרן</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup22/prod/images/tal.JPG</imageUrl>
+        </student>
+        <student>
+            <name>ענבל טוך</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup22/prod/images/inbal.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup22/prod/images/loadPic.jpg</projectImageUrl>
+    // this is the main image that will represent your project
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup22/prod/default.aspx</projectLandingPage>
+    <!--<mobile>
+        <links>
+            <link target="android">
+                <url>http://build.phonegap.com/apps/274567/download/android</url>
+                <QRLink>https://chart.googleapis.com/chart?chs=116x116&=qr&=http://build.phonegap.com/apps/274567/install/?qr_key=YxYWCyBTXaHJ566grMLq&=L|1&=UTF-8</QRLink> 
+            </link>
+            <link target="ios">
+                <url>http://build.phonegap.com/apps/274567/download/ios</url>
+                <QRLink>
+                    https://chart.googleapis.com/chart?chs=116x116&=qr&=http://build.phonegap.com/apps/274567/install/?qr_key=YxYWCyBTXaHJ566grMLq&=L|1&=UTF-8
+                </QRLink>
+            </link>
+            <link target="web mobile">
+                <url>http://proj.ruppin.ac.il/igroup22/prod/Default.aspx</url>
+                <QRLink>QR code link</QRLink>
+            </link>
+        </links>
+    </mobile>-->
+    <movie>http://www.youtube.com/watch?v=zWExl53tGk8</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup22/prod/images/pic1.JPG</imageUrl>
+            <description>מסך פורום המשחקים החיים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup22/prod/images/pic2.JPG</imageUrl>
+            <description>מסך כניסה לאפליקציה</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup22/prod/images/pic3.JPG</imageUrl>
+            <description>מסך ה"ועוד" המכיל תכנים נוספים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup22/prod/images/pic4.JPG</imageUrl>
+            <description>המסך הראשי של החנות</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup22/prod/images/pic5.JPG</imageUrl>
+            <description>מסך דף הבית</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>מר ניר חן</advisor>
+        <advisor>מר וקסר נועם</advisor>
+    </advisors>
+    <shortDescription>
+        ממשק אינטראקטיבי לאוהדי מכבי נתניה, אשר יחזק את הקשר בין העמותה לקהל האוהדים
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>חיזוק הקשר בין העמותה לקהל האוהדים.</description>
+            <status>
+                הלקוח בדק את המודול בזמן תהליך ההטמעה ואישר את הגברת היעילות
+            </status>
+        </goal>
+        <goal>
+            <description>
+                המערכת תאפשר לעמותה מכירת מוצרים ופרסום נותני חסות על מנת להגדיל את הכנסותיה.
+            </description>
+            <status>למערכת ישנה חנות עם מוצרי העמותה</status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>העלאת תמונות דרך פורום המשחקים החיים</name>
+            <description>
+                אשר מתחברות אל מערכות המכשיר הסלולרי. את כתובת התמונה שומרים בשרת שלנו וכאשר נלחץ על התמונה היא תשנה את גודלה phone gap נעשה באמצעות מתודות של
+            </description>
+            <features>
+                <feature>העלאת התמונה לפורום המשחקים החיים</feature>
+                <feature>שינוי גודל התמונה ע"י לחיצה על התמונה</feature>
+            </features>
+        </module>
+        <module>
+            <name>העלאת כתבות ע"י מנהל האתר</name>
+            <description>
+                ומעלים לשרת html תחילה יוצרים קובץ וורד ושומרים אותו בתצורת
+            </description>
+            <features>
+                <feature>הגדרת פרטי הכתבה בצד שרת</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="HTML5 + CSS3"/>
+        <technology name="SQL Server"/>
+        <technology name="jQuery Mobile"/>
+        <technology name="JavaScript"/>
+    </technologies>
+    <challenges>
+        יצירת פורום המשחקים החיים אשר נפתח רק כאשר מתחיל משחק ונסגר כאשר תם המשחק. phone gap למידת פונקציונאליות של מכשיר המובייל ופיתוח בסביבת תיאום גרסאות בין המפתחים בשלבי הפיתוח הטמעת המערכת אצל העמותה ולימוד מנהל המערכת על עבודה עם האתר
+    </challenges>
+    <personalNote/>
+</project>

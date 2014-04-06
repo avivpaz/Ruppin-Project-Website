@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>Dora Rooms</name>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>מערכת לשיבוץ משאבי המתנ"ס</tag>
+    </tags>
+    <faculty>IE</faculty>
+    <year>2013</year>
+    <customer>
+        <name>Dora Community Center</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup26/prod/Images/slide1.jpg</logoUrl>
+        <shortDescription>
+            מתנ"ס דורה, הינו מלכ"ר אשר מטרותיו הן לשנות את התדמית השלילית שנוצרה לשכונה, לקדם את תושבי הקהילה ולאחד בינהם, ע"י קיום פעילויות חינוכיות ומעשירות
+        </shortDescription>
+        <interstedParties>
+            <party>מנהל המתנ"ס</party>
+        </interstedParties>
+        <users>
+            <user>מנהל המתנ"ס</user>
+            <user>מזכירה</user>
+            <user>רכזים</user>
+            <user>אורחי המתנ"ס</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup26</groupCode>
+        <group>
+            <imageUrl>http://proj.ruppin.ac.il/igroup26/prod/Images/team26.jpg</imageUrl>
+        </group>
+        <student>
+            <name>גל עזרא</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup26/prod/Images/gal_ezra.jpg</imageUrl>
+        </student>
+        <student>
+            <name>ליגל רן-נחום</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup26/prod/Images/ligal_ran.jpg</imageUrl>
+        </student>
+        <student>
+            <name>ניב אלשייך</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup26/prod/Images/Niv_Alsheich.jpg</imageUrl>
+        </student>
+    </students>
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup26/prod/Default.aspx</projectLandingPage>
+    <movie>http://www.youtube.com/watch?v=5iOtb1j2_d0</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup26/prod/Images/createevent.png</imageUrl>
+            <description>מסך יצירת אירוע</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup26/prod/Images/searchres.png</imageUrl>
+            <description>מסך חיפוש הזמנה</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup26/prod/Images/searchevent.png</imageUrl>
+            <description>מסך חיפוש אירוע</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup26/prod/Images/statistic.png</imageUrl>
+            <description>מסך סטטיסטיקות</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup26/prod/Images/roomstate.png</imageUrl>
+            <description>מסך תצוגת מצב</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>נועם וקסר</advisor>
+        <advisor>בני בורנפלד</advisor>
+    </advisors>
+    <shortDescription>
+        מערכת לניהול סדר היום ומשאבי המתנ"ס. מאפשרת שיבוץ מהיר ונוח, מעקב תוך שמירה על מינימום טעויות אנוש והפקת ערך מוסף דוגמת שימוש בגרפים, משובים ושליחה לאקסל לכל ניתוח אחר שנדרש.
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>מניעת טעויות שיבוץ</description>
+            <status>
+                קישור בין בקשות הלקוח, לאירועים הקיימים במתנ"ס ושמשובצים במערכת תוך התחשבות בציוד ומאפייני החדרים הדרושים.
+            </status>
+        </goal>
+        <goal>
+            <description>נוחות ופשטות</description>
+            <status>
+                המערכת תאפשר לעובדי המתנ"ס לעבור לעבודה ממוחשבת, להימנע מניירת והתרוצצויות מיותרות ולבצע פעולות שעד כה - גזלו זמן רב לדוגמא: המזכירה תוכל להיכנס למסך אשר מציג לה את כלל הפעילויות הנוכחיות
+            </status>
+        </goal>
+        <goal>
+            <description>אחסון הנתונים ע"ג שרת</description>
+            <status>
+                שמירת הנתונים על שרת, המאפשרת שליפה ושימוש מהירים ופשוטים
+            </status>
+        </goal>
+        <goal>
+            <description>תמיכה בקבלת החלטות ניהוליות</description>
+            <status>
+                ,המערכת תאפשר באמצעות מדדים, דוחות שתפיק המזכירה באופן עצמאי, מעקב אחרי ביטולי לקוח, ביקוש פעילויות מסויימות וכו'.
+            </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>חיפוש</name>
+            <description>
+                מודול שמקנה אפשרות לחפש אירועים / הזמנות תוך שימוש בחתכים שונים
+                <features>
+                    <feature>ביטול הזמנה</feature>
+                    <feature>הצגת פרטי הזמנה ושמירתם כקובץ טקסט</feature>
+                    <feature>שמירת תוצאות חיפוש נוכחי בקובץ 'אקסל'</feature>
+                </features>
+            </description>
+        </module>
+        <module>
+            <name>יצירת הזמנה</name>
+            <description>
+                מודול שאוגר את כל פרטי הזמנת הלקוח ומעדכן בהתאם לצורך
+            </description>
+        </module>
+        <module>
+            <name>אירועים</name>
+            <description>
+                מודול אשר מתרגם את הזמנת הלקוח לאירוע, אשר מאוחר יותר ישובץ.
+            </description>
+        </module>
+        <features>
+            <feature>
+                יצירת אירוע שחוזר על עצמו - שכפול אירועים וקישור בינהם
+            </feature>
+            <feature>יצירת אירוע</feature>
+            <feature>עדכון אירוע</feature>
+            <feature>מחיקת חשבון</feature>
+        </features>
+        <module>
+            <name>שיבוץ אירוע</name>
+            <description>
+                מאפשר לראות אם ניתן לשבץ עם הנתונים הנוכחיים או שיש לשנות פרט כלשהו. מאפשר הזנה למערכת ושמירה כחלק מסדר היום של המתנ"ס.
+            </description>
+            <features>
+                <feature>
+                    חיפוש אירועים אשר עלולים להפריע לקיום האירוע אותו מעוניינים לשבץ
+                </feature>
+                <feature>שיבוץ אירוע</feature>
+                <feature>מחיקת שיבוץ</feature>
+                <feature>
+                    פונקצייה אשר סורקת אירועים שבהם נעשה שימוש בציוד ומתריאה
+                </feature>
+            </features>
+        </module>
+        <module>
+            <name>שינוי משאבי המתנ"ס</name>
+            <description>
+                ניתן לעדכן מאפייני חדרים, ציוד אשר עומד לרשות המתנ"ס וכדומה.
+            </description>
+            <features>
+                <feature>הוספת/מחיקת/עדכון פרטי חדר</feature>
+                <feature>הוספת/מחיקת/עדכון ציוד</feature>
+                <feature>הוספת/מחיקת/עדכון מאפייני חדר</feature>
+            </features>
+        </module>
+        <module>
+            <name>מדדים</name>
+            <description>
+                ערך מוסף למנהל, מתן כלי ניהול אשר יסייעו לו בקבלת החלטות הקשורות למגוון נושאים
+            </description>
+            <features>
+                <feature>ניתוח שימוש וביקוש לציוד</feature>
+                <feature>ניתוח רמות עומס על חדרים</feature>
+                <feature>ניתוח דיעת הלקוחות</feature>
+            </features>
+        </module>
+        <module>
+            <name>תצוגת מצב</name>
+            <description>
+                מודול שמאפשר לעובדי המתנ"ס לדעת מה קורה בזמן נתון במתנ"ס כדי לקבל תמונת מצב מלאה על המתרחש ומתן תשומת לב לאירועים מיוחדים בעת הצורך
+            </description>
+        </module>
+        <module>
+            <name>סטטוס הזמנה</name>
+            <description>
+                מודול שמעדכן בכל טבלה רלוונטית מה מצב ההזמנה, ומציג מידע נוסף בהתאם למצב שלה - דוגמת פרטי שיבוץ, סיבת ביטול וכדומה.
+            </description>
+        </module>
+        <module>
+            <name>יצירת עובד</name>
+            <description>
+                מודול שמאפשר יצירת משתמש חדש להרשאה נוכחית או להרשאה חדשה שיוצרים במערכת
+            </description>
+        </module>
+        <module>
+            <name>התאמת חדרים</name>
+            <description>
+                קישור בין מאפייני חדר וכמות אנשים לרשימת החדרים שתוצג
+            </description>
+        </module>
+        <module>
+            <name>משוב לקוחות</name>
+            <description>
+                מתן חוות דעת של הלקוחות על הזמנות שאושרו ושובצו, על מנת לתת להם מקום לשיפור איכות השירות במתנ"ס
+            </description>
+        </module>
+        <module>
+            <name>סטטוס הזמנות ללקוח</name>
+            <description>
+                מודול שמאפשר לראות את מצב כלל ההזמנות של לקוח ספציפי בזמן אמת
+            </description>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="jQuery"/>
+        <technology name="javaScript"/>
+    </technologies>
+    <challenges>
+        בניית תשתית טובה שכוללת שאילתות ופונקציות מורכבות, על מנת לאפשר שיבוץ תקין ללא תקלות ומתן תמונת מצב נכונה
+    </challenges>
+    <personalNote>
+        אנו מרוצים מאוד מהתוצאה הסופית, על אף שניתן תמיד לשכלל את המערכת (והיו מספר רעיונות נוספים עליהם חשבנו) אנו סמוכים ובטוחים כי המערכת עונה על רוב צרכי המתנ"ס. למדנו המון.
+    </personalNote>
+</project>

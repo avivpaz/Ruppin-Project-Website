@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project> // all fields are mandatory besides those specified not to be
+    <name>Shema Information System</name>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>עמותת שמע</tag>
+        <tag>שיבוץ חכם</tag>
+    </tags>
+    <faculty>IE</faculty> // can be IE or BA
+    <year>2013</year>     // must be an integer
+    <customer>
+        <name>Shema association</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup28/prod/images/shemaIcon.jpg</logoUrl> // not mandatory
+        <shortDescription>
+            עמותת "שמע" הוקמה בשנת 1968 על-ידי הורים ומתנדבים במטרה לספק את הצרכים המיוחדים של ילדים ובני נוער חרשים וכבדי שמיעה בתחומים: חינוך, שיקום שמיעתי, רווחה ושילוב בחברה. שמע פועלת למענם של ילדים ובני נוער מכתות א'-י"ב הלומדים במסגרות לימוד שונות.
+        </shortDescription>
+        <interstedParties>
+            <party>עובדי העמותה</party>
+            <party>מתנדבים</party>
+            <party>תורמים</party>
+            <party>משרד החינוך</party>
+        </interstedParties>
+        <users>
+            <user>מנהלת שמע סניף תל-אביב</user>
+            <user>מנהלת המועדון החברתי</user>
+            <user>רכזים</user>
+            <user>מנהל בית הספר לשפת סימנים</user>
+            <user>מרכזת תוכניות מעבר</user>
+            <user>מנהלת תקשורת שיווקית</user>
+            <user>מנהלת גיוס ופיתוח משאבים</user>
+            <user>עובדות סוציאליות</user>
+            <user>מנהלת פרויקט חונכות וירטואלית</user>
+            <user>רכזות פרויקט חונכות וירטואלית</user>
+            <user>בנות שירות לאומי</user>
+            <user>מזכירת הסניף</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup28</groupCode>
+        <student>
+            <name>גילי מנדל</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup28/prod/images/Students/MendelGili.jpg</imageUrl>
+        </student>
+        <student>
+            <name>הילה סטר</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup28/prod/images/Students/SetterHila.png</imageUrl>
+        </student>
+        <student>
+            <name>הילה רוזנבלום</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup28/prod/images/Students/RozenblumHila.png</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup28/prod/images/projectImage.png</projectImageUrl>
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup28/prod/Default.aspx</projectLandingPage>
+    <movie>http://www.youtube.com/watch?v=eoI7SpDxjVk</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup28/prod/documentation/images/Screenshots/ManagerHomePage.png</imageUrl>
+            <description>דף הבית של מנהלת סניף שמע תל-אביב</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup28/prod/documentation/images/Screenshots/Stuff_Supply_Request.png</imageUrl>
+            <description>מסך הזמנת פריטים של אנשי צוות העמותה</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup28/prod/documentation/images/Screenshots/Calendar_MeetingCreation.png</imageUrl>
+            <description>מסך יצירת בקשה לפגישה של אנשי צוות העמותה</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup28/prod/documentation/images/Screenshots/VirtualTutoring_Registration.png</imageUrl>
+            <description>מסך ניהול הרשמה של מנהלת פרויקט חונכות וירטואלית</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup28/prod/documentation/images/Screenshots/VirtualTutoring_Assingment.png</imageUrl>
+            <description>מסך התאמת צמדים של מנהלת פרויקט חונכות וירטואלית</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>מר דוד בינמין</advisor>
+        <advisor>מר בני בורנפלד</advisor>
+    </advisors>
+    <shortDescription>
+        מערכת המידע נבנתה עבור עובדי ומנהלי העמותה במטרה לאפשר להם ניהול אפקטיבי יותר של התהליכים בארגון. המערכת מתמקדת בשלושה תחומים עיקריים. הראשון הוא מודול שיבוץ זוגות עבור פרויקט חונכות וירטואלית. החונכות הוירטואלית הינה תוכנית שבה משתתפים חונכים וחניכים. כל חניך מוצמד לחונך למטרת התכתבות לפי המאפיינים שלו כגון מגדר, רמת שמיעה , אמונה (דתי/חילוני) ועוד. מודול השיבוץ מוצא שיבוץ אופטימאלי לכל החניכים לפי קריטריונים שהעמותה הגדירה. המודול מאפשר לתת משקל שונה לכל מאפיין ומאפשר גמישות על ידי הסרת שיבוצים או מניעת שיבוצים אוטומטים. מודול לניהול הזמנות הציוד מסייע למנהלת המועדון החברתי לבצע הזמנות של ציוד יצירה. בעזרת מודול זה אנשי הצוות יכולים לבצע בקשות להזמנת פריטי ציוד שונים. מנהלת המועדון החברתי מקבלת אליה את כל הבקשות ומחליטה האם לאשר או לדחות ויכולה לייצר הזמנה לשליחה לספק הציוד של העמותה. מודול לניהול פגישות בחדרים מסייע למנהלת הסניף לנהל את שיבוץ הפגישות ומפגשי החוגים בחדרי הארגון. בעזרת המודול אנשי הצוות יכולים לקבוע פגישה בחדר ולצפות בכל הפגישות הקיימות. מנהלת הסניף יכולה לאשר פגישה, לדחות פגישה או לעדכן את המאפיינים שלה.
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>שיפור שיטת קביעת פגישות בחדרי הארגון</description>
+            <status>
+                המערכת מאפשרת למשתמשים לדעת מתי החדרים פנויים ולבקש בקשות שיבוץ רלוונטיות. עבור מנהלת הסניף המערכת מרכזת את כל המידע הרלוונטי עבור החלטות השיבוץ
+            </status>
+        </goal>
+        <goal>
+            <description>
+                שיפור שיטת השיבוץ בין חניך לחונך במסגרת פרויקט חונכות וירטואלית
+            </description>
+            <status>
+                המערכת מריצה אלגוריתם אשר מחשב מהם הצימודים האופטימאלים עבור החניכים והחונכים המשתתפים בפרויקט
+            </status>
+        </goal>
+        <goal>
+            <description>שמירת נתונים על משתתפי פרויקט חונכות וירטואלית</description>
+            <status>
+                מסד הנתונים של המערכת על גבי שרת אשר שומר את כל המידע הרלוונטי
+            </status>
+        </goal>
+        <goal>
+            <description>מעקב אחר הזמנות ציוד</description>
+            <status>
+                המערכת מרכזת עבור מנהלת המועדון החברתי את כל הבקשות להזמנת ציוד של אנשי הצוות ומאפשרת צפייה בהיסטורית הזמנות. עבור אנשי הצוות המערכת מאפשרת מעקב אחר הסטטוסים השונים של בקשתם.
+            </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>מסך הבית</name>
+            <description>
+                המודול מכיל עדכונים אשר מוצגים לפי הרשאות המשתמש. מידע על פגישות והסטטוס שלהן, מידע על פרטי ציוד שביקש, מידע על חוגים, מידע כללי על החונכות הוירטואלית לשנה הנוכחית, בקשות לציוד / פגישות ממתינות ועוד
+            </description>
+            <features>
+                <feature>הוספת חדר לרשימת חדרי העמותה</feature>
+                <feature>מחיקת חדר מרשימת חדרי העמותה</feature>
+                <feature>
+                    קיצורי דרך לטיפול במשימות: ניהול בקשות לפגישות, ניהול בקשות ציוד
+                </feature>
+                <feature>צפייה בפגישות של המשתמש</feature>
+                <feature>מחיקת פגישות מבוטלות, פגישות ממתינות לאישור</feature>
+                <feature>צפייה בסטטוסים של פריטי ציוד שבוקשו על ידי המשתמש</feature>
+                <feature>
+                    צפייה במידע על החוגים המתקיימים בעמותה בשנה הנוכחית
+                </feature>
+                <feature>
+                    צפייה במידע כללי על פרויקט החונכות הוירטואלי לשנה הנוכחית
+                </feature>
+            </features>
+        </module>
+        <module>
+            <name>מודול חונכות וירטואלית</name>
+            <description>
+                המודול מאפשר לחונכים ולחניכים להירשם לפרויקט, מאפשר צפייה בפרטי החניכים והחונכים, מאפשר צימוד חונכים לחניכים על סמך פרמטרים מוגדרים וצפיה במידת התאמת הצימוד.
+            </description>
+            <features>
+                <feature>פתיחת שנת הרשמה</feature>
+                <feature>מחיקת שנת הרשמה</feature>
+                <feature>פתיחה/סגירה הרשמת חונכים</feature>
+                <feature>פתיחה/סגירה הרשמת חניכים</feature>
+                <feature>צפייה בפרטי חניך/חונך</feature>
+                <feature>עריכת פרטי חניך/חונך</feature>
+                <feature>הכנסת הערות של מנהלת החונכות על החניכים והחונכים</feature>
+                <feature>עריכת סדר העדיפויות של הקריטריונים לצימוד האוטומטי</feature>
+                <feature>לצימוד אוטומטי בין החניכים והחונכים הרשומים</feature>
+                <feature>הסרת צימוד של חונך-חניך</feature>
+                <feature>צימוד ידני של חונך-חניך</feature>
+                <feature>הוצאת חניך/חונך משיבוץ אוטומטי</feature>
+                <feature>יצוא פרטי חניכים וחונכים לאקסל</feature>
+                <feature>צפייה בשנות חניכה קודמות</feature>
+                <feature>צפייה בנתונים סטטיסטיים לאורך השנים</feature>
+            </features>
+        </module>
+        <module>
+            <name>מודול שיבוץ לחדרים</name>
+            <description>
+                המודול מאפשר למשתמשי המערכת לצפות בפגישות המתקיימות בחדרי העמותה ולבקש לקבוע פגישה חדשה. מנהלת הסניף יכולה לאשר, לדחות או לערוך את הבקשות לקיום חוגים או מפגשים
+            </description>
+            <features>
+                <feature>צפייה בפרטים כלליים של כל הפגישות המשובצות בחדרים</feature>
+                <feature>צפייה אישית בבקשות לפגישה</feature>
+                <feature>סינון - הצגה של פגישות אישיות או כלל הפגישות</feature>
+                <feature>יצירת בקשה לפגישה</feature>
+                <feature>עריכה של פגישה או בקשה לפגישה</feature>
+                <feature>מחיקה של פגישה או בקשה לפגישה</feature>
+                <feature>צפייה בפרטי חוגים</feature>
+                <feature>בקשה ליצירת חוג</feature>
+                <feature>צפייה ברשימת פגישות מתנגשות</feature>
+                <feature>צפייה ברשימת פגישות לא מתנגשות</feature>
+                <feature>אישור חוג</feature>
+                <feature>ביטול חוג</feature>
+                <feature>אישור פגישה</feature>
+                <feature>דחיית פגישה</feature>
+                <feature>עריכת פגישה לפני אישורה</feature>
+                <feature>
+                    שליחת מייל אוטומטי למבקש הפגישה על עדכון סטאטוס של הפגישה
+                </feature>
+                <feature>שינוי תצוגת לוח השנה - חודשי / שבועי / יומי</feature>
+            </features>
+        </module>
+        <module>
+            <name>מודול ניהול ציוד</name>
+            <description>
+                המודול מאפשר למשתמשי המערכת לבקש פריטי ציוד שיוזמנו על ידי מנהלת המועדון החברתי, לפי שיקול דעתה. משתמשי המערכת יכולים לצפות בבקשות של כלל המשתמשים ולעקוב אחר הסטטוסים השונים של הבקשה. מנהלת המועדון החברתי יכולה לצפות בבקשת, להוסיפן להזמנות ולייצא את ההזמנות לאקסל. כמו כן המודול מאפשר למנהלת המועדון החברתי לצפות בפרטי ההזמנות הקודמות שהוזמנו ולערוך את רשימת הפריטים האפשריים לבקשות.
+            </description>
+            <features>
+                <feature>צפייה בפריטי ציוד אפשריים לבקשה</feature>
+                <feature>בקשת פריט ציוד</feature>
+                <feature>צפייה, עריכת ומחיקת בקשות ציוד</feature>
+                <feature>
+                    סינון צפייה בבקשות ציוד לפי שם משתמש ו/או לפי סטטוס בקשה
+                </feature>
+                <feature>עריכת, הוספת ומחיקת פריטי ציוד</feature>
+                <feature>יצירת הזמנה חדשה</feature>
+                <feature>הוספת בקשות ציוד להזמנה</feature>
+                <feature>דחית בקשות ציוד</feature>
+                <feature>הסרת בקשות ציוד מהזמנה</feature>
+                <feature>סגירת הזמנה</feature>
+                <feature>עדכון תאריך הגעת הזמנה</feature>
+                <feature>עדכון סטטוס בקשה, סטטוס הזמנה</feature>
+                <feature>ייצוא הזמנה לקובץ אקסל</feature>
+                <feature>צפייה בהיסטורית הזמנות</feature>
+                <feature>עריכת כמויות במלאי</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="SQL Server - Microsoft"/>
+        <technology name="jQuery library"/>
+        <technology name="ASP.NET AJAX Control Toolkit"/>
+        <technology name="FullCalendar - Full-sized Calendar jQuery Plugin - Adam Shaw"/>
+        <technology name="ELMAH - Error Logging Modules and Handlers for ASP.NET"/>
+    </technologies>
+    <challenges>
+        עבודה עם ממשקי אפליקציות חדשות, שילוב של אלגוריתם קלאסי בתוך מערכת המידע, עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה, ניהול ותכנון לוחות זמנים, חילופי תפקידים בעמותה.
+    </challenges>
+    <personalNote> // not mandatory
+        ביצוע הפרויקט היווה אתגר רציני מבחינות רבות. יחד עם זאת אנחנו מרגישות שהוא תרם רבות לפיתוח האישי והמקצועי שלנו ונתן לנו כלים טובים להתמודדות במשימות עתידיות אשר יוטלו עלינו במהלך הקריירה המקצועית שלנו.
+    </personalNote>
+</project>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>מערכת מידע לניהול בית ספר לשיעורים פרטיים ניצני עז</name>
+    <type>מערכות מידע</type>
+    <tags>
+        // תגדירו תגיות שיעזרו לחפש ולמיין את הפרויקט שלכם
+        <tag>שירות מדינה</tag>
+        <tag>שירות מסובסד</tag>
+        <tag>שיעורים פרטיים</tag>
+    </tags>
+    <faculty>IE</faculty>
+    <year>2013</year>
+    <customer>
+        <name>מרכז למידה ניצני עז</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup27/prod/images/levHasharon.jpg</logoUrl>
+        <shortDescription>
+            מרכז למידה הפועל בכל ימות השבוע בשעות אחה"צ, תחת סבסוד של המועצה האזורית לב השרון המרכז מספק מענה לתלמידים בכיתות ג' – יב' בכל הנוגע לחומרי הלימוד. המרכז מעניק תמיכה לתלמידים עם קשיי למידה, הכנה לבגרות ובעת הצורך מתן שיעורים פרטיים.
+        </shortDescription>
+        <interstedParties>
+            <party>מנהלת המרכז</party>
+            <party>תלמידים</party>
+            <party>מורים</party>
+            <party>הורים</party>
+            <party>מועצה אזורית לב השרון</party>
+        </interstedParties>
+        <users>
+            <user>מנהלת המרכז</user>
+            <user>תלמידים</user>
+            <user>מורים</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup27</groupCode>
+        <student>
+            <name>אלירן יעקב</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup27/prod/images/eliran.jpg</imageUrl>
+        </student>
+        <student>
+            <name>דניאל מלטיז</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup27/prod/images/danielle.jpg</imageUrl>
+        </student>
+        <student>
+            <name>יעקב דלמדיגו</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup27/prod/images/kobi.jpg</imageUrl>
+        </student>
+        <student>
+            <name>לירי שטיבלמן</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup27/prod/images/liri.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup27/prod/images/levHasharon.jpg</projectImageUrl>
+    // this is the main image that will represent your project
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup27/prod/images/forlogo2.png</projectLandingPage>
+    <!--
+
+  <mobile>
+    <links>
+      <link target = "android">
+        <url> the download url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>
+      <link target = "ios">
+        <url> the download url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>
+      <link target = "web mobile">
+        <url> the url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>
+    </links>
+  </mobile>
+  
+-->
+    <movie>http://www.youtube.com/watch?v=gfJd3CffSNA&amp;feature=youtu.be</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup27/prod/images/proweb.png</imageUrl>
+            <description>מסך תדמית</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup27/prod/images/managerDefault.png</imageUrl>
+            <description>מסך מערכת שעות שבועית</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup27/prod/images/details.png</imageUrl>
+            <description>מסך פרטי שיעור</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup27/prod/images/studentReq.png</imageUrl>
+            <description>מסך בקשת תלמיד</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup27/prod/images/addNewStudent.png</imageUrl>
+            <description>מסך הוספת תלמיד חדש</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>ד"ר דיצה ביימל</advisor>
+        <advisor>מר ניר חן</advisor>
+    </advisors>
+    <shortDescription>
+        מערכת לניהול בית ספר לשיעורים פרטיים התפורה לצרכי הלקוח, מרכז למידה ניצני עז. פיתוח המערכת מאפשר למנהלת המרכז לנהל את התלמידים המורים ושיבוצם לשיעורים במהלך השבוע. כל נתוני המערכת יהיו מאוחסנים על גבי שרת מאוחד ויתמכו בתהליכי קבלת ההחלטות של המנהלת
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>שליטה מלאה בנתוני הלקוחות</description>
+            <status>
+                המערכת תשמור את הנתונים עבור התלמידים והמורים באופן ממוחשב
+            </status>
+        </goal>
+        <goal>
+            <description>פינוי זמן למנהלת המרכז</description>
+            <status>
+                מערכת השעות החכמה תפנה למנהלת המרכז זמן רב לפיתוח המרכז
+            </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>ניהול תלמידים</name>
+            <description>
+                המודול מרכז את כל פרטי התלמידים בצורה נוחה לחיפוש ונוחה לעריכה, חלק מהנתונים נשמרים במסד הנתונים להמשך תהליך
+            </description>
+            <features>
+                <feature>הוספת תלמיד חדש</feature>
+                <feature>עריכת פרטי תלמיד</feature>
+                <feature>הוספת שיעור לתלמיד</feature>
+                <feature>מחיקת תלמיד</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול מורים</name>
+            <description>
+                המודול מרכז את כל פרטי המורים בצורה נוחה לחיפוש ונוחה לעריכה, חלק מהנתונים נשמרים במסד הנתונים להמשך תהליך
+            </description>
+            <features>
+                <feature>הוספת מורה חדש</feature>
+                <feature>עריכת פרטי מורה</feature>
+                <feature>הוספת מקצוע למורה</feature>
+                <feature>מחיקת מורה</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול מערכת השעות</name>
+            <description>
+                המודול מאפשר לנהל את מערכת השעות בצורה מהירה נגישה וחכמה על ידי שימוש מועט בכפתורים
+            </description>
+            <features>
+                <feature>הוספת שיעור בסיסי</feature>
+                <feature>השאלת שבועי</feature>
+                <feature>צפיה בפרטי שיעור</feature>
+                <feature>מחיקת שיעור</feature>
+                <feature>עדכון מועד השיעור</feature>
+                <feature>עדכון התלמידים הלומדים בשיעור</feature>
+            </features>
+        </module>
+        <module>
+            <name>בקשות לשינוי במערכת השעות</name>
+            <description>
+                המודול מאפשר לתלמיד לבקש בקשה לשינוי שיעור נוכחי זאת לאחר שהמערכת איתרה עבורו שיעורים המתאימים לנתוניו
+            </description>
+            <features>
+                <feature>הגשת בקשה</feature>
+                <feature>הסרת בקשה שהוגשה</feature>
+                <feature>אישור הבקשה על ידי המנהלת</feature>
+                <feature>דחיית הבקשה על ידי המנהלת</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="jQuery"/>
+        <technology name="AJAX"/>
+    </technologies>
+    <challenges>
+        התמודדנו תחילה עם עבודה בשילוב מלא של גאווה סקריפט וצד שרת כאשר הקריאות המסובכות יותר היו הקריאות שמצד הלקוח לצד השרת בצורה גרפית מלאה אתגר נוסף שהתמודדנו איתו הוא העבודה בסביבת קוד עמוסה (מעל 1500 שורות קוד)
+    </challenges>
+    <personalNote></personalNote>
+</project>

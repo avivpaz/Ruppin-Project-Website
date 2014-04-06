@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>מערכת להנגשת טקסטים מדעיים לציבור הרחב- SimplifyMe</name>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>SimplifyMe</tag>
+    <tag>Jargon</tag>
+    <tag>simplify</tag>
+    <tag>Professional words</tag>
+  </tags>
+  <faculty>BA</faculty>
+  <year>2013</year>
+  <customer>
+    <name>
+      פרופסור משנה אילת ברעם-צברי מהמחלקה לחינוך מדעי וטכנולוגי בטכניון
+    </name>
+    <logoUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/simplifymeManager.jpg</logoUrl>
+    <shortDescription>
+      פרופסור משנה אילת ברעם-צברי מקדמת גישה חדשנית לשיפור הנגשת המדע לציבור הרחב. לכן היא מעוניינת בבניית והעלאת כלי ממוחשב לרשת שיעזור למדענים לדבר עם הציבור הרחב ברמה המתאימה, ויתריע בפניהם כשהם משתמשים בז'רגון – שפה מקצועית שהציבור הרחב לא מבין.
+    </shortDescription>
+    <users>
+      <user>חוקרים</user>
+      <user>כלל הציבור</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>bgroup2</groupCode>
+    <student>
+      <name>צליל כהן</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/Zlil.jpg</imageUrl>
+    </student>
+    <student>
+      <name>מירית אריאל דהן</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/Mirit.jpg</imageUrl>
+    </student>
+    <student>
+      <name>דניאל שוורץ</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/Danielle.jpg</imageUrl>
+    </student>
+    <student>
+      <name>דור קריב</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/Dor.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/simplifyMeImg.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/bgroup2/prod/UI/simplifyme.ASPX</projectLandingPage>
+  <!--
+<mobile>
+    <links>
+      <link target = "android">
+        <url> the download url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>
+      <link target = "ios">
+        <url> the download url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>
+      <link target = "web mobile">
+        <url> the url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>
+    </links>
+  </mobile>
+-->
+  <movie>http://www.youtube.com/watch?v=Il4bS8W0IaA</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/simplifyMeDefult.png</imageUrl>
+      <description>דף כניסה למערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/simplifyMeEditProfile.png</imageUrl>
+      <description>מסך שינוי פרטים אישיים ללקוח</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/simplifyMeManagerReport.png</imageUrl>
+      <description>מסך למנהל- הצגת כל המילים לפי מספר ההיררכיה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/simplifyMeUpdateUser.png</imageUrl>
+      <description>מסך למנהל- שינוי סטאטוס משתמש: מרגיל למנהל ולהיפך</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup2/prod/images/projImg/simplifyMeUserStatistics.png</imageUrl>
+      <description>מסך דוחות למשתמש</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>בני בורנפלד</advisor>
+    <advisor>עמית רכבי</advisor>
+    <advisor>תמי צוקרמן</advisor>
+  </advisors>
+  <shortDescription>
+    הינה מערכת SimplifyMe שמציגה מילים חשודות בטקסט ואת רמת הקושי שלהם, המילים מועברות לסינון ראשוני ע"י קורפוס שמכיל 10000 מילים שכיחות בשפה האנגלית (Google news) וציבורי (Perq)ולאחר מכן לקורפוס מדעי
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>
+        זיהוי מילים מקצועיות שרוב הציבור לא מבין את משמעותן
+      </description>
+      <status>
+        הלקוח בדק את המודול בזמן תהליך ההטמעה ואישר את הגברת היעילות
+      </status>
+    </goal>
+    <goal>
+      <description>המילים יוצגו לפי דרגות הקושי בהבנתן</description>
+      <status>
+        המערכת מציגה ללקוח את רשימת המילים החשודות ממויינות לפי דרגת קושי
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>SimplifyMe</name>
+      <description>עמוד כניסה למערכת</description>
+      <features>
+        <feature>רישום לקוח</feature>
+        <feature>כניסת לקוח קיים</feature>
+      </features>
+    </module>
+    <module>
+      <name>forgotPassword</name>
+      <description>במקרה שלקוח שכח סיסמא הוא יכול לקבל אותה למייל</description>
+      <features>
+        <feature>שליחת מייל ללקוח עם סיסמא לאחר זיהוי</feature>
+      </features>
+    </module>
+    <module>
+      <name>MainUserPage</name>
+      <description>הדף הראשי, המשתמש מזין את הטקסט ומקבל את התוצאות</description>
+      <features>
+        <feature>קבלת תוצאות</feature>
+        <feature>ניקוי הלוח</feature>
+        <feature>הוצאת דוח לאקסל</feature>
+        <feature>שליחת החלטות למערת</feature>
+      </features>
+    </module>
+    <module>
+      <name>EditProfile</name>
+      <description>משתמש יכול לצפות בפרטים שלו ולשנותם</description>
+      <features>
+        <feature>שינוי פרטים</feature>
+      </features>
+    </module>
+    <module>
+      <name>UserStatistics</name>
+      <description>
+        צפייה בכמות המילים החשודות לכל חיפוש שהיוזר ביצע לפי תאריך
+      </description>
+      <features>
+        <feature>בחירת תאריך וצפייה בדוח</feature>
+      </features>
+    </module>
+    <module>
+      <name>ContactUs</name>
+      <description>מידע על המערכת וצוות הפיתוח</description>
+      <features>
+        <feature>יצירת קשר ע"י שליחת מייל למנהל</feature>
+      </features>
+    </module>
+    <module>
+      <name>ManagerMainPage</name>
+      <description>
+        דף שמוצג למנהל בלבד,הדף הראשי של המנהל והוא זהה לדף של המשתמש הרגיל, רק תפריט שונה
+      </description>
+      <features>
+        <feature>הזנת טקסט וקבלת תוצאות</feature>
+      </features>
+    </module>
+    <module>
+      <name>Statistics</name>
+      <description>דף שמוצג למנהל בלבד - הצגת דוחות</description>
+      <features>
+        <feature>דוח שמציג את כמות המילים בכל היררכיה</feature>
+        <feature>
+          המנהל מזין מילה ומקבל דוח שמציג כמה חוקרים הסכימו וכמה לא הסכימו עם הצעת המערכת
+        </feature>
+        <feature>
+          המנהל בוחר היררכיה ומקבל את רשימת המילים של אותה היררכיה בלבד
+        </feature>
+      </features>
+    </module>
+    <module>
+      <name>Managment</name>
+      <description>דף שמוצג למנהל בלבד- ניהול הלקוחות</description>
+      <features>
+        <feature>
+          המנהל מזין מייל של לקוח והוא יכול לראות את הפרטים שלו ולהפוך אותו מיוזר רגיל למנהל ולהיפך
+        </feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="jQuery"/>
+    <technology name="Ajax"/>
+    <technology name="SQL- server"/>
+    <technology name="JavaScript"/>
+    <technology name="CSS"/>
+    <technology name="Ajaxtoolkit"/>
+  </technologies>
+  <challenges>
+    המערכת כולה מתבססת על מאגרים חיצוניים שצריכים לתת מענה אמין ומהיר ללקוחות האתגר העיקרי במערכת היה מציאת מאגר שיהיה גם חינמי אבל גם אמין מספיק כדי שהחלטות המערכת יהיו כמה שיותר מדוייקות ושלא רק יזהו מילים קשות להבנה אלא גם יצליחו לדרג אותם לפי חומרת הבנתן לציבור.
+  </challenges>
+
+  <personalNote></personalNote>
+</project>

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>מערכת מידע לעמותת נגישות ישראל</name>
+    <type>מערכות מידע</type>
+    <faculty>IE</faculty>
+    <year>2013</year>
+    <tags>
+        <tag>עמותה</tag>
+        <tag>נכים</tag>
+        <tag>מוגבלויות</tag>
+        <tag>נגישות</tag>
+        <tag>ייעוץ</tag>
+        <tag>קרנות</tag>
+    </tags>
+    <customer>
+        <name>עמותת נגישות ישראל</name>
+        <logoUrl>
+            http://proj.ruppin.ac.il/igroup23/prod/images/logo.png
+        </logoUrl>
+        <shortDescription>
+            עמותת "נגישות ישראל" הוקמה בשנת 1999 ע"י יובל וגנר. העמותה הוקמה על מנת לקדם את נושא המודעות לנגישות ולאפשר לאנשים עם מוגבלות ובני משפחותיהם להשתלב בחברה באופן שוויוני, מכובד ובעצמאות מלאה.
+        </shortDescription>
+        <interstedParties>
+            <party>יו"ר</party>
+            <party>מנכ"ל</party>
+            <party>מנהלת חשבונות וגביה</party>
+            <party>אסיפה כללית וועד מנהל</party>
+            <party>מנהלת תחום נגישות</party>
+            <party>רכזת נגישות מתו"ס</party>
+            <party>אחראית לוגיסטיקה</party>
+            <party>מזכירה</party>
+            <party>מנהלים ורכזים במחלקת חינוך</party>
+            <party>יועצים</party>
+            <party>תורמים</party>
+        </interstedParties>
+        <users>
+            <user>מנכ"ל</user>
+            <user>מנהלת תחום נגישות</user>
+            <user>יו"ר</user>
+            <user>רכזת נגישות מתו"ס</user>
+            <user>אחראית לוגיסטיקה</user>
+            <user>מזכירה</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup23</groupCode>
+        <student>
+            <name>נופר ברהום</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup23/prod/images/imageSTU/Nuphar_Barhum.jpg</imageUrl>
+        </student>
+        <student>
+            <name>רונית תדמור</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup23/prod/images/imageSTU/Ronit_Tadmor.jpg</imageUrl>
+        </student>
+        <student>
+            <name>לירון עשור</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup23/prod/images/imageSTU/Liron_Asor.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup23/prod/images/logo.png</projectImageUrl>
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup23/prod</projectLandingPage>
+    <mobile>
+        <links>
+            <link target="android">
+                <url>the download url goes here</url>
+                <QRLink>QR code link</QRLink>
+            </link>
+            <link target="ios">
+                <url>the download url goes here</url>
+                <QRLink>QR code link</QRLink>
+            </link>
+            <link target="web mobile">
+                <url>the url goes here</url>
+                <QRLink>QR code link</QRLink>
+            </link>
+        </links>
+    </mobile>
+    <movie>http://www.youtube.com/watch?v=GwC3CqRZAaA&amp;feature=youtu.be</movie>
+    <screenShots>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup23/prod/images/imageProj/img2.jpg</imageUrl>
+            <description>מסך הוספת ארוע ליומן אירועים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup23/prod/images/imageProj/img3.jpg</imageUrl>
+            <description>מסך דף לקוח</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup23/prod/images/imageProj/img4.jpg</imageUrl>
+            <description>מסך פריסת פרויקטים על מפת ישראל</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup23/prod/images/imageProj/img5.jpg</imageUrl>
+            <description>מסך פרויקט</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup23/prod/images/imageProj/img6.jpg</imageUrl>
+            <description>מסך אבני דרך על ציר זמן</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>בני בורנפלד</advisor>
+        <advisor>ד"ר דיצה ביימל</advisor>
+    </advisors>
+    <shortDescription>
+        הקמת מערכת מידע לעמותה נגישות ישראל, המלווה את התהליכים העסקיים בעמותה ומאפשרת להם לנהל ולארגן את מאגר המידע.
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>יצירת מאגר לקוחות משותף</description>
+            <status>
+                המערכת מאחסנת במסד נתונים את כל פרטי הלקוחות והפרויקטים שלהם.
+            </status>
+        </goal>
+        <goal>
+            <description>מעקב אחר לקוחות</description>
+            <status>
+                המערכת מספקת התראות חכמות לעובדים, המאפשרות מעקב מדויק אחר התקדמות הפרויקט והמנעות מאיבוד לקוחות
+            </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>תיקי לקוחות</name>
+            <description>
+                המודול מאפשר למשתמשים לעקוב אחר לקוחות פרויקטי ייעוץ, לצפות בלקוח ספציפי או לפתוח לקוח חדש
+            </description>
+            <features>
+                <feature>צפייה ברשימת לקוחות</feature>
+                <feature>חיפוש לקוח</feature>
+                <feature>עדכון לקוח</feature>
+            </features>
+        </module>
+        <module>
+            <name>פרויקט ייעוץ</name>
+            <description>
+                המודול מאפשר צפייה בכלל הפרויטים בתור רשימה או בפריסה על גבי מפת ישראל. ניתן לצפות ולעדכן פרויקט או לפתוח פרויקט חדש ללקוח. לכל פרויקט יש אבני דרך וניתן לעקוב אחריהן דרך צפייה בציר זמן. ניתן לצפות ברשימת יועצים אשר עובדים עם העמותה
+            </description>
+            <features>
+                <feature>צפייה ברשימת פרויקטים</feature>
+                <feature>צפייה רשימת יועצים</feature>
+                <feature>עדכון וחיפוש פרויקט</feature>
+            </features>
+        </module>
+        <module>
+            <name>פרויקט קרנות</name>
+            <description>
+                מודול זה מאפשר לעקוב אחר הקרנות אשר תורמות לעמותה, לפתוח קרן חדשה ולעדכן לה פרויקטים (תרומות)
+            </description>
+            <features>
+                <feature>צפייה ברשימת פרויקטים</feature>
+                <feature>צפייה ברשימת קרנות</feature>
+                <feature>הוספת קרן</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול עובדים</name>
+            <description>
+                המודול מאפשר מעקב אחר עובדי העמותה, שינוי סיסמת משתמש והוספת עובד חדש.
+            </description>
+            <features>
+                <feature>הוספת משתמש</feature>
+                <feature>שינוי סיסמא</feature>
+                <feature>רשימת עובדים</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול מפגעים</name>
+            <description>
+                המודול מאפשר צפייה במפגעי הסדרי נגישות ברחבי הארץ. המודול מתעדכן דרך אפליקציית מובייל, אשר מאפשרת לכל האוכלוסיה לדווח על מפגעים. ניהול המפגעים נותן אפשרות לעמותה ליצור קשר עם המקום ולהציע לו את שירותם.
+            </description>
+            <features>
+                <feature>צפייה ברשימת מפגעים</feature>
+                <feature>צפייה במפת מפגעים</feature>
+                <feature>עדכון מפגע</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="jQuery Mobile"/>
+        <technology name="jQuery"/>
+        <technology name="AJAX"/>
+        <technology name="JavaScript"/>
+        <technology name="MSSql"/>
+        <technology name="CSS3"/>
+        <technology name="HTML5"/>
+    </technologies>
+    <challenges>
+        הבנת התהליכים המרכזיים בעמותה, פתירת תקלות ובגים יומיים בכתיבת הקוד, עבודה עם עיצוב המערכת.
+    </challenges>
+    <personalNote>
+        פה המקום להוסיף מה שאתם רוצים להביע ולא נכנסו בשום סעיף אחר
+    </personalNote>
+</project>

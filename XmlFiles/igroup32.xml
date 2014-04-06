@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>
+        מערכת מידע לניהול, תכנון ובקרה על מערך הייצור במפעל "מיניפלסט"
+    </name>
+    <type>מערכות מידע</type>
+    <faculty>IE</faculty>
+    <year>2013</year>
+    <tags>
+        <tag>מיניפלסט</tag>
+        <tag>מערכות מידע</tag>
+        <tag>תכנית ייצור</tag>
+        <tag>תכנון</tag>
+    </tags>
+    <customer>
+        <name>מפעל "מיניפלסט" עין-שמר</name>
+        <logoUrl>http://il.multivac.com/typo3temp/GB/miniplast_e771ccd507_60c09ca704.png</logoUrl>
+        <shortDescription>
+            מפעל לייצור מוצרי פלסטיק חד-פעמיים לתעשיית הרפואה והמזון בשוק המקומי והבינלאומי.
+        </shortDescription>
+        <interstedParties>
+            <party>מנכ"ל</party>
+            <party>מנהל התפעול</party>
+            <party>מנהל הייצור</party>
+            <party>מנהל מערכות מידע</party>
+        </interstedParties>
+        <users>
+            <user>מנכ"ל</user>
+            <user>מנהל התפעול</user>
+            <user>מנהל הייצור</user>
+            <user>מנהל רכש</user>
+            <user>מנהל משמרת</user>
+            <user>עובד ייצור</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup32</groupCode>
+        <student>
+            <name>יועד פאל</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup32/Images/Yoad.jpg</imageUrl>
+        </student>
+        <student>
+            <name>עידו קרנר</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup32/Images/Ido.jpg</imageUrl>
+        </student>
+        <student>
+            <name>עמרי ולפר</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup32/Images/Omri.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup32/Images/Main.png</projectImageUrl>
+    // this is the main image that will represent your project
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup32/prod</projectLandingPage>
+    <movie>https://www.youtube.com/watch?feature=player_embedded&amp;v=Qj8LHulHVPw</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup32/Images/s1.jpg</imageUrl>
+            <description>Dashboard</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup32/Images/s2.jpg</imageUrl>
+            <description>מסך שיבוץ עבודות</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup32/Images/s3.jpg</imageUrl>
+            <description>מסך תכנית ייצור</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup32/Images/s4.jpg</imageUrl>
+            <description>מסך דיווחי ייצור</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup32/Images/s5.jpg</imageUrl>
+            <description>דוח דרישות חו"ג</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>דוד בנימין</advisor>
+        <advisor>בני בורנפלד</advisor>
+    </advisors>
+    <shortDescription>
+        תהליכי התכנון, הניהול והבקרה על הייצור בארגון התבצעו עד כה בצורה ידנית וללא שימור ידע.
+    </shortDescription>
+    <shortDescription>
+        הפרוייקט נועד לתת מענה טכנולוגי מתקדם לתהליכים אלו בארגון.
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>הגדלת יעילות הארגון</description>
+            <status>
+                הלקוח בדק את המודול בזמן תהליך ההטמעה ואישר את הגברת היעילות
+            </status>
+        </goal>
+        <goal>
+            <description>הקטנת אחוזי העבודות המאחרות</description>
+            <status>
+                המערכת מאפשרת לזהות בזמן אמת עבודות מאחרות ונותנת כלים אשר מקלים על הטיפול בעבודות אלו
+            </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>שיבוץ הזמנות בתכנית הייצור</name>
+            <description>
+                מאפשר שיבוץ של הזמנה, על כל מרכיביה, בתכנית הייצור תוך בדיקה בזמן אמת של עמידה בזמני האספקה.
+            </description>
+            <features>
+                <feature>שיבוץ עבודה</feature>
+                <feature>בדיקת זמן סיום משוער</feature>
+                <feature>מתן חיווי "עבודה מאחרת"</feature>
+            </features>
+        </module>
+        <module>
+            <name>עריכת תכנית הייצור</name>
+            <description>
+                כלי מתקדם המאפשר למנהל הייצור לערוך את העבודות המשובצות על תכנית הייצור ע"י ממשק גרירה פשוט ויעיל. בנוסף מאפשר הכלי להכניס לתכנית תקלות וטיפולים עתידיים ומחיקת אלמנטים מהתכנית.
+            </description>
+            <features>
+                <feature>הזזת עבודה</feature>
+                <feature>הוספת תקלה</feature>
+                <feature>הוספת טיפול</feature>
+                <feature>חיווי לעבודה מאחרת</feature>
+                <feature>חיווי התקדמות ייצור עבודות</feature>
+                <feature>תצוגת פרטי עבודה/טיפול/תקלה</feature>
+                <feature>מחיקת עבודה/טיפול/תקלה מהתכנית</feature>
+                <feature>שמירת תכנית הייצור העדכנית</feature>
+            </features>
+        </module>
+        <module>
+            <name>דוחות</name>
+            <description>
+                ניפוק דוחות סטטיסטיים וכמותיים על הייצור ודרישות חומרי גלם עתידיות.
+            </description>
+            <features>
+                <feature>דרישות חו"ג</feature>
+                <feature>ניתוח איחורים</feature>
+                <feature>ייצור לפי תקופה</feature>
+                <feature>תפוקת מכונות</feature>
+            </features>
+        </module>
+        <module>
+            <name>דיווחי ייצור</name>
+            <description>
+                ממשק הזנת דיווחי עובד/מנהל על התקדמות הייצור בזמן אמת. כל דיווח נשמר במערכת.
+            </description>
+            <features>
+                <feature>בחירת מערך ייצור</feature>
+                <feature>בחירת כמות מדווחת</feature>
+                <feature>אישור דיווח אחרון לעבודה</feature>
+                <feature>ביטול דיווח אחרון</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="HTML5"/>
+        <technology name="JavaScript"/>
+        <technology name="SQL"/>
+        <technology name="jQuery"/>
+        <technology name="AJAX"/>
+    </technologies>
+    <challenges>
+        האתגר המרכזי עימו התמודדנו היה מציאת פתרון יעיל לשימוש ולא מורכב מדי ליישום עבור הצגת ועריכת תכנית הייצור. הפתרון היה ממשק גרירה אשר מקל מאוד על עבודה מנהל הייצור בתהליך תכנון ועריכת תכנית הייצור. יישום הממשק, על כל מאפייניו, היה לא פשוט ודרש מחשבה והשקעה מרובה.
+    </challenges>
+    <personalNote></personalNote>
+</project>

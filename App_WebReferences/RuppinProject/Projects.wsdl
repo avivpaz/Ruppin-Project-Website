@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getProjectFullPath">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fullPath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getProjectFullPathResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getProjectFullPathResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getProject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="groupName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getProjectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getProjectResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getXmlFileList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getXmlFileListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getXmlFileListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProjectFullPathSoapIn">
+    <wsdl:part name="parameters" element="tns:getProjectFullPath" />
+  </wsdl:message>
+  <wsdl:message name="getProjectFullPathSoapOut">
+    <wsdl:part name="parameters" element="tns:getProjectFullPathResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProjectSoapIn">
+    <wsdl:part name="parameters" element="tns:getProject" />
+  </wsdl:message>
+  <wsdl:message name="getProjectSoapOut">
+    <wsdl:part name="parameters" element="tns:getProjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="getXmlFileListSoapIn">
+    <wsdl:part name="parameters" element="tns:getXmlFileList" />
+  </wsdl:message>
+  <wsdl:message name="getXmlFileListSoapOut">
+    <wsdl:part name="parameters" element="tns:getXmlFileListResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ProjectsSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getProjectFullPath">
+      <wsdl:input message="tns:getProjectFullPathSoapIn" />
+      <wsdl:output message="tns:getProjectFullPathSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getProject">
+      <wsdl:input message="tns:getProjectSoapIn" />
+      <wsdl:output message="tns:getProjectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getXmlFileList">
+      <wsdl:input message="tns:getXmlFileListSoapIn" />
+      <wsdl:output message="tns:getXmlFileListSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ProjectsSoap" type="tns:ProjectsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProjectFullPath">
+      <soap:operation soapAction="http://tempuri.org/getProjectFullPath" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProject">
+      <soap:operation soapAction="http://tempuri.org/getProject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlFileList">
+      <soap:operation soapAction="http://tempuri.org/getXmlFileList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ProjectsSoap12" type="tns:ProjectsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProjectFullPath">
+      <soap12:operation soapAction="http://tempuri.org/getProjectFullPath" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProject">
+      <soap12:operation soapAction="http://tempuri.org/getProject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlFileList">
+      <soap12:operation soapAction="http://tempuri.org/getXmlFileList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Projects">
+    <wsdl:port name="ProjectsSoap" binding="tns:ProjectsSoap">
+      <soap:address location="http://localhost:28505/Tar2%20Project%20Mobile%20Web%20Site/Projects.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ProjectsSoap12" binding="tns:ProjectsSoap12">
+      <soap12:address location="http://localhost:28505/Tar2%20Project%20Mobile%20Web%20Site/Projects.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

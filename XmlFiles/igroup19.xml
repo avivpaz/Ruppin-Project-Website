@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <faculty>Industrial Engineering and Management</faculty>
+    <year>2013</year>
+    <name>מערכת מידע ל- RCC עפולה</name>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>חברת מחשבים</tag>
+        <tag>android</tag>
+        <tag>טפסים</tag>
+        <tag>ייעול</tag>
+        <tag>ניהול מלאי</tag>
+        <tag>שיפור</tag>
+        <tag>ניהול לקוחות</tag>
+        <tag>Google Maps</tag>
+    </tags>
+    <customer>
+        <name>RCC</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup19/prod/documentation/Images/logo/rcc.png</logoUrl>
+        <shortDescription>
+            .אר.סי.סי מחשבים ואלקרוניקה נוסדה בשנת 1988, מאז היווסדה עוסקת החברה בייבוא רכיבי אלקרוניקה, יצור במחשבים אישיים, מכירת ניידים ורכיבי מחשב מהמותגים המובילים בתחום. החברה עוסקת כיום בעיקר בתחום המכירות הקמעונאי ושרות לקוחות עסקיים ופרטיים. אר.סי.סי מחשבים מעסיקה היום צוות של 20 עובדים מנוסים המוכן לתת מענה לכל צורך
+        </shortDescription>
+        <interstedParties>
+            <party>מנכ"ל</party>
+            <party>מנהלת שירות</party>
+        </interstedParties>
+        <users>
+            <user>טכנאי חוץ</user>
+            <user>טכנאי פנים</user>
+            <user>מנכ"ל</user>
+            <user>מנהלת שירות</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup19</groupCode>
+        <student>
+            <name>לירון לב</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup19/prod/documentation/Images/students/liron.jpg</imageUrl>
+        </student>
+        <student>
+            <name>שי אתר</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup19/prod/documentation/Images/students/shai.jpg</imageUrl>
+        </student>
+        <student>
+            <name>מרום גלבוע</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup19/prod/documentation/Images/students/Marom.png</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup19/prod/documentation/Images/logo/rcc.png</projectImageUrl>
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup19/prod/Login.aspx</projectLandingPage>
+    <mobile>
+        <links>
+            <link target="android">
+                <url>http://proj.ruppin.ac.il/prod/code/Mobile/assets/www/login.html</url>
+            </link>
+        </links>
+    </mobile>
+    <movie>http://www.powtoon.com/p/bjfsFDuabOA/</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup19/prod/documentation/Images/screenshots/phone1.png</imageUrl>
+            <description>מסך בית סלולארי</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup19/prod/documentation/Images/screenshots/phone2.png</imageUrl>
+            <description>מסך תחילת עבודה סלולארי</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup19/prod/documentation/Images/screenshots/web1.png</imageUrl>
+            <description>סטטיסטיקת טכנאי</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup19/prod/documentation/Images/screenshots/web2.png</imageUrl>
+            <description>פתיחת תקלה חדשה</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup19/prod/documentation/Images/screenshots/web3.png</imageUrl>
+            <description>פתיחת ביקור חדש</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>מר ניר חן</advisor>
+        <advisor>ד"ר דיצה ביימל</advisor>
+    </advisors>
+    <shortDescription>
+        מטרת הפרויקט היא לייעל את חברת אר.סי.סי מבחינת זמני טיפול בלקוחותיה, וכמו כן ניהול מלאי , לקוחות, וקריאות שירות בצורה יעילה ומדויקת
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>הגדלת יעילות הארגון</description>
+            <status>
+                ניהול טפסים שעד היום מולאו בצורה ידנית, והעברתם לצורה ממוחשבת
+            </status>
+        </goal>
+        <goal>
+            <description>שיפור המעקב אחרי המלאי</description>
+            <status>
+                המערכת מפקחת על המלאי שנמצא אצל הלקוח/נמכר ללקוח/ שייך לחברה שהושאל ללקוח
+            </status>
+        </goal>
+        <goal>
+            <description>שיפור המעקב אחרי טכנאים</description>
+            <status>
+                המערכת מראה על כל טכנאי את מיקומו, וכמות הזמן שהוא אצל לקוח
+            </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>ניהול לקוחות</name>
+            <description>
+                תיעוד של כל לקוחות החברה על-מנת בצורה מאורגנת ויעילה
+            </description>
+            <features>
+                <feature>רישום לקוח</feature>
+                <feature>צפיה בפרטים של לקוח</feature>
+                <feature>עריכת פרטי לקוח</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול ציוד</name>
+            <description>
+                ניהול של שלושה סוגי ציוד עיקריים פריטים שהלקוח רכש, פריטים של הלקוח שנלקחו לטיפול במעבדה, פריטים של חברת אר.סי.סי שניתנו ללקוח בזמן שהפריט שלו מתוקן במעבדה
+            </description>
+            <features>
+                <feature>הוספת פריט</feature>
+                <feature>השאלת פריט</feature>
+                <feature>מכירת פריט</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול ביקורים</name>
+            <description>ניהול הביקורים אצל לקוח עבור כל קריאת שירות</description>
+            <features>
+                <feature>הוספת ביקור</feature>
+                <feature>שיוך מלאי לביקור</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול תקלות</name>
+            <description>ניהול הביקורים אצל לקוח עבור כל קריאת שירות</description>
+            <features>
+                <feature>הוספת תקלה</feature>
+            </features>
+        </module>
+        <module>
+            <name>טפסים</name>
+            <description>יצירת טפסים שמכילים סטטסטיקה</description>
+            <features>
+                <feature>יצירת טופס</feature>
+            </features>
+        </module>
+        <module>
+            <name>מעקב אחרי טכנאים</name>
+            <description>מפה שמראה את מיקום הטכנאים לאחר שהתחילו עבודה</description>
+            <features>
+                <feature>סימון הטכנאי המפה וראיית פרטי הביקור שלו</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול משתמשי המערכת</name>
+            <description>ניהול של משתמשים לכניסה למערכת</description>
+            <features>
+                <feature>יצירת משתמש</feature>
+            </features>
+            <features>
+                <feature>מחיקת משתמש</feature>
+            </features>
+            <features>
+                <feature>עריכת משתמש</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="jQuery"/>
+        <technology name="JAVA"/>
+        <technology name="Javascript"/>
+        <technology name="Phonegap Mobile"/>
+        <technology name="Crystal Reports"/>
+        <technology name="MS SQL"/>
+    </technologies>
+    <challenges></challenges>
+    <personalNote></personalNote>
+</project>

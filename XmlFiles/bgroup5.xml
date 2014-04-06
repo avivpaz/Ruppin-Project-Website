@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>MYTH מערכת מידע ולקיחת הזמנות במסעדה</name>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>מסעדה</tag>
+    <tag>הזמנות</tag>
+    <tag>מלצרים</tag>
+    <tag>שולחנות</tag>
+    <tag>MYTH</tag>
+    <tag>Meat And Wine Co.</tag>
+  </tags>
+  <faculty>BA</faculty>
+  <year>2013</year>
+  <customer>
+    <name>Meat And Wine Co.</name>
+    <logoUrl>http://proj.ruppin.ac.il/bgroup5/prod/Images/logo1.png</logoUrl>
+    <shortDescription>
+      מסעדת בשרים ויין המונה 7 סניפים ברחבי העולם וסניף אחד כשר בארץ ישראל, שמה לה לדגש לתת את השירות הטוב ביותר ואיכות האוכל הגבוהה ביותר ללקוחותיה
+    </shortDescription>
+    <interstedParties>
+      <party>הנהלת הארגון</party>
+      <party>מלצרים</party>
+      <party>בעלי מסעדות ברחבי העולם</party>
+    </interstedParties>
+    <users>
+      <user>מלצרים</user>
+      <user>הנהלה</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>bgroup5</groupCode>
+    <student>
+      <name>משה מריומה</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup5/prod/Images/MOSHE.jpg</imageUrl>
+    </student>
+    <student>
+      <name>הגר רואס</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup5/prod/Images/HAGAR.jpg</imageUrl>
+    </student>
+    <student>
+      <name>טל רובין</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup5/prod/Images/TAL.jpg</imageUrl>
+    </student>
+    <student>
+      <name>יגל טויל</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup5/prod/Images/YAGEL.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup5/prod/Images/timthumb.jpg</projectImageUrl>
+  // this is the main image that will represent your project
+  <projectLandingPage>http://proj.ruppin.ac.il/bgroup5/prod/Images/Login.aspx</projectLandingPage>
+  <movie>http://www.youtube.com/watch?v=a79YQ9ywdX4</movie>
+  <screenShots>
+    // 5 screen shots of the application
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup5/prod/Images/שולחנות.png</imageUrl>
+      <description>מסך שולחנות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>
+        http://proj.ruppin.ac.il/bgroup5/prod/Images/בחירת מידת עשיה.png
+      </imageUrl>
+      <description>מסך לקיחת הזמנה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup5/prod/Images/הצגת מנה ללקוח.png</imageUrl>
+      <description>הצגת המנה ללקוח</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup5/prod/Images/גלריה.png</imageUrl>
+      <description>גלריית ספיישלים לאינטראקציה ראשונית עם הלקוח</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup5/prod/Images/פעולות מנהל.png</imageUrl>
+      <description>פעולות מנהל</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>בני בורנפלד</advisor>
+    <advisor>תמי צוקרברג</advisor>
+  </advisors>
+  <shortDescription>
+    מערכת ביצוע הזמנות אלחוטית וניידת לזירוז תהליך ההזמנה, הגברת השקיפות אל מול הלקוחות וייעול תפקוד הארגון בשוטף
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>ייעול וזירוז תהליך לקיחת ההזמנות</description>
+      <status>
+        צוות הפרוייקט בשיתוך עם מנהל המסעדה בדק ומצא כי אכן חלה התייעלות בתהליך לקיחת ההזמנה
+      </status>
+    </goal>
+    <goal>
+      <description>שקיפות מול הלקוחות ומניעת ביטולים ומנות חוזרות</description>
+      <status>
+        מנהל המסעדה התרשם מאוד מהפונקציונאליות החדישה והיעילה לפיה ניתן להציג את המנות ללקוחות מבעוד מועד ותיאר את האלמנט הנ"ל כהצלחה מסחררת
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>לקיחת הזמנה</name>
+      <description>
+        ביצוע הזמנה אל מול הלקוחות תוך שימת דגש על ממשק הכוונתי למשתמש לביצוע הזמנה נכונה
+      </description>
+      <features>
+        <feature>הצגת המנה ללקוח</feature>
+        <feature>מנגנון חיפוש מוצרים</feature>
+        <feature>הוספת הערה למוצר בהזמנה</feature>
+      </features>
+    </module>
+    <module>
+      <name>פעולות מנהל</name>
+      <description>ביצוע מניפולציות ניהוליות שונות</description>
+      <features>
+        <feature>ניהול עובדים ושעות</feature>
+        <feature>ניהול שולחנות ומנות</feature>
+        <feature>ניהול גלריית ספיישלים</feature>
+      </features>
+    </module>
+    <module>
+      <name>הפקת דוחות</name>
+      <description>הפקת דוחות אינפורמטיביים על פי דרישת מנהל</description>
+      <features>
+        <feature>דו"ח שעות עובדים</feature>
+        <feature>דו"ח מכירות ומוצרים</feature>
+        <feature>יצוא דוחות לאקסל</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="jQuery"/>
+    <technology name="AjaxToolKit"/>
+  </technologies>
+  <challenges>
+    האתגר המרכזי בו נתקלנו ניהול נכון של ארכיטקטורת המערכת, חשיבה אינטנסיבית וביקורתית אל מחוץ לקופסא והניסיון הבלתי פוסק לחולל שינויי בתחום מתן השירות בארץ ובעולם
+  </challenges>
+  <personalNote>:-)חוויה לימודית מיוחדת במינה</personalNote>
+</project>

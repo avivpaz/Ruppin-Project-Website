@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>Nephromor</name>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>מערכת ERP</tag>
+        <tag>מערכת ניהול מלאי והזמנות</tag>
+    </tags>
+    <faculty>תעו"נ</faculty>
+    <year>2013</year>
+    <customer>
+        <name>Nephromor</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup31/prod/documentation/images/logo.png</logoUrl>
+        <shortDescription>
+            מערכת מידע לניהול מלאי ורכש בארגון, המערכת מיודעת לארגון מבוזר בעל כמה סניפים. המערכת יודעת לייצר הזמנות רכש, לקלוט מלאי ולטפל בחשבוניות, כמו כן, המערכת מספקת dash board אינפורמטיבי.
+        </shortDescription>
+        <interstedParties>
+            <party>הנהלת הארגון</party>
+            <party>סמנכ"ל תפעול</party>
+            <party>מנהל מכון</party>
+        </interstedParties>
+        <users>
+            <user>סמנכל תפעול</user>
+            <user>כלכלנית</user>
+            <user>כח עזר</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup31</groupCode>
+        <student>
+            <name>אור פלס</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup31/prod/documentation/images/orr.jpg</imageUrl>
+        </student>
+        <student>
+            <name>רני גל</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup31/prod/documentation/images/rani.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup31/prod/documentation/images/logo.png</projectImageUrl>
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup31/prod/Default.aspx</projectLandingPage>
+    <movie>http://www.youtube.com/watch?v=vDFyLOCHCBE</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup31/prod/documentation/images/item.PNG</imageUrl>
+            <description>update item</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup31/prod/documentation/images/dashboard.PNG</imageUrl>
+            <description>Dashboard page</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup31/prod/documentation/images/stouk.PNG</imageUrl>
+            <description>update stock</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup31/prod/documentation/images/login.PNG</imageUrl>
+            <description>login page</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup31/prod/documentation/images/patient.PNG</imageUrl>
+            <description>update patient</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>דוד בנימין</advisor>
+        <advisor>בני בורנפלד</advisor>
+    </advisors>
+    <shortDescription>
+        מערכת מידע לניהול מלאי ורכש בארגון, המערכת מיודעת לארגון מבוזר בעל כמה סניפים. המערכת יודעת לייצר הזמנות רכש, לקלוט מלאי ולטפל בחשבוניות, כמו כן, המערכת מספקת dash board אינפורמטיבי.
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>מעבר מנייר למערכת ממוחשבת</description>
+            <status>המודול נבדק על ידי המפתחים</status>
+        </goal>
+        <goal>
+            <description>שיפור המעקב על המלאי במכונים השונים</description>
+            <status>המודול נבדק על ידי המפתחים</status>
+        </goal>
+        <goal>
+            <description>יצירת דש בורד למנהל לאתרעות ומלאים</description>
+            <status>המודול נבדק על ידי המפתחים</status>
+        </goal>
+        <goal>
+            <description>יצירת הזמנות ממוחשבות</description>
+            <status>המודול נבדק על ידי המפתחים</status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>מטופלים</name>
+            <description>
+                מודול ניהול מטופלים נותן להוסיף מטופלים למערכת לעדכן עבורם סל פריטים, צפייה, עדכון ומחיקה של מטופל
+            </description>
+            <features>הוספת מטופל</features>
+            <features>עדכון סל פריטים של מטופל</features>
+            <features>מחיקת מטופל</features>
+        </module>
+        <module>
+            <name>מלאי</name>
+            <description>
+                מודול אשר נותן יכולת ליצור הזמנות רכש, לאשר הזמנות שהגיעו ולעדכן פריטים
+            </description>
+            <features>
+                <feature>יצירת הזמנה</feature>
+                <feature>אישור הזמנה</feature>
+                <feature>הוספת פריט</feature>
+                <feature>עדכון ומחיקת פריט</feature>
+            </features>
+        </module>
+        <module>
+            <name>כספים</name>
+            <description>
+                מודול אשר נותן יכולת לצפות בחשבוניות עבר, להעלות חשבונית חדשה וליצור דף תשלומים
+            </description>
+            <features>
+                <feature>צפייה בחשבוניות ישנות</feature>
+                <feature>אישור חשבונית</feature>
+                <feature>יצירת דוח תשלומים לספק</feature>
+                <feature>îçé÷ú àéù ÷ùø</feature>
+            </features>
+        </module>
+        <module>
+            <name>דוחות</name>
+            <description>
+                מודול אשר מייצר דוחות ספציפיים עבור מכונים, נותן גם אפשרות לייצר קובץ אקסל
+            </description>
+            <features>
+                <feature>צפייה בדוח מלאי מכון</feature>
+                <feature>צפייה במלאי טבע מדיקל</feature>
+                <feature>יצירת אקסל</feature>
+            </features>
+        </module>
+        <module>
+            <name>ניהול מערכת</name>
+            <description>
+                מודול עבור מנהל מערכת נותן יכולת להוסיף עובדים, לשנות סיסמאות, לייצר הודעות מערכת
+            </description>
+            <features>
+                <feature>הוספת משתמשים</feature>
+                <feature>שינוי סיסמאות</feature>
+                <feature>עריכת הודעות</feature>
+            </features>
+        </module>
+        <module>
+            <name>dash board</name>
+            <description>דף אשר מראה 4 גרפים של נתונים עבור סמנכל תפעול</description>
+            <features>
+                <feature>סכום הזמנות לפי מכון</feature>
+                <feature>הזמנות פתוחות</feature>
+                <feature>עלות מלאי מכון</feature>
+                <feature>הזמנות בש"ח</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="Json"/>
+        <technology name="javaScript"/>
+        <technology name="Google Visualisation"/>
+    </technologies>
+    <challenges>
+        שלב האפיון, בהבנה מול הארגון, מהם הצרכים, כיצד היו רוצים שזה יראה וכו
+    </challenges>
+    <personalNote>
+        היה מאוד מאתגר או מעניין אך אם זאת, אנו שמחים שזה מאחורינו
+    </personalNote>
+</project>

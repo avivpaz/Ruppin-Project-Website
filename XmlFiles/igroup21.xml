@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>מרכז התמיכה ללקויי למידה</name>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>עמותה ברופין</tag>
+        <tag>מרכז תמיכה</tag>
+    </tags>
+    <faculty>IE</faculty>
+    <year>2013</year>
+    <customer>
+        <name>מרכז התמיכה לסטודנטים עם לקויות למידה ברופין</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/loginLogo.png</logoUrl>
+        <shortDescription>
+            מרכז התמיכה לסטודנטים עם לקויות למידה במרכז האקדמי רופין, מהווה חלק משירותי משרד דיקן הסטודנטים ומטרתו לתמוך בסטודנטים עם לקויות למידה ולהקנות שוויון הזדמנויות ונגישות להשכלה הגבוהה.
+        </shortDescription>
+        <interstedParties>
+            <party>מנהלת מרכז התמיכה</party>
+            <party>רכזת נגישות</party>
+        </interstedParties>
+        <users>
+            <user>מנהלת מרכז התמיכה</user>
+            <user>רכזת נגישות</user>
+            <user>רכזת ייעוץ והכוונה</user>
+            <user>רכזת חונכויות וסדנאות</user>
+            <user>מזכירה</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup21</groupCode>
+        <student>
+            <name>גיל פיטוסי</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/Gil.jpg</imageUrl>
+        </student>
+        <student>
+            <name>כפיר זלצמן</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/Cfir.jpg</imageUrl>
+        </student>
+        <student>
+            <name>שני צברי</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/Shany.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/loginLogo.png</projectImageUrl>
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup21/prod/Default.aspx</projectLandingPage>
+    <movie>http://www.youtube.com/watch?v=7Nf-gEuPLYg&amp;feature=youtu.be</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/Screenshot_1.jpg</imageUrl>
+            <description>מסך פניות רכזת חונכויות וסדנאות</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/Screenshot_2.jpg</imageUrl>
+            <description>שיבוץ חניך לחונך</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/Screenshot_3.jpg</imageUrl>
+            <description>מסך מנהל - ניצול תקציב</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/Screenshot_4.jpg</imageUrl>
+            <description>מסך פניות מזכירה</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/Screenshot_5.jpg</imageUrl>
+            <description>דף סטודנט חלק 1</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup21/prod/Images/Screenshot_6.jpg</imageUrl>
+            <description>דף סטודנט חלק 2</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>דוד בנימין</advisor>
+        <advisor>ניר חן</advisor>
+    </advisors>
+    <shortDescription>
+        מערכת התומכת בתהליכי עבודה מרכזיים במרכז התמיכה ללקויי למידה ברופין. לכל אחת מעובדות המרכז תינתן הרשאת כניסה בהתאם לתהליכים אותם היא מבצעת. המערכת תרכז את כל השירותים אותם צורך הסטודנט במרכז.
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>מיכון תהליכים ידניים</description>
+            <status>טפסי הרשמה מקוונים במערכת</status>
+        </goal>
+        <goal>
+            <description>שיתוף ידע בין עובדי המרכז</description>
+            <status>תיק סטודנט מקוון המשותף לכל בעלי העניין</status>
+        </goal>
+        <goal>
+            <description>מערכת שיבוץ חכמה</description>
+            <status>
+                מערכת שיבוץ חכמה בין חניך לחונך בהתאם לקריטריונים שנקבעו ע"י הסטודנט וניתנים לשינוי רכזת החונכויות והסדנאות
+            </status>
+        </goal>
+        <goal>
+            <description>כלי בקרה לניהול תקציבי</description>
+            <status>
+                המנהלת תקבל דיווח על מצב ניצול התקציב בממשק גרפי וטבלאות מעודכנות של כל מחלקה מדווחת - חונכויות וסדנאות ומזכירות
+            </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>עמוד ראשי - חונכויות וסדנאות</name>
+            <description>
+                דף הבית של רכזת החונכויות והסדנאות המרכז את הפניות לבקשת רישום לסדנאו, בקשות חניכים ובקשות חונכים
+            </description>
+            <features>
+                <feature>בקשות רישום לסדנאות</feature>
+                <feature>בקשות חניכים</feature>
+                <feature>בקשות חונכים</feature>
+            </features>
+        </module>
+        <module>
+            <name>עמוד ראשי - ייעוץ והכוונה</name>
+            <description>
+                דף הבית של רכזת הייעוץ וההכוונה המרכז את הפניות לרישום ראשוני, לאחר מילוי שאלון ראשוני ופניות עם אבחון
+            </description>
+            <features>
+                <feature>בקשה לרישום ראשוני</feature>
+                <feature>בדיקת טפסי אבחון</feature>
+            </features>
+        </module>
+        <module>
+            <name>עמוד ראשי - נגישות</name>
+            <description>דף הבית של רכזת הנגישות המרכז את הפניות עם האבחון</description>
+            <features>
+                <feature>בדיקת טפסי אבחון</feature>
+            </features>
+        </module>
+        <module>
+            <name>סדנאות</name>
+            <description>
+                דף המאפשר חיפוש סדנא עם אפשרות חיתוך לפי תנאי תשלום ( שולם / לא שולם). תוצאות החיפוש יכילו טבלה של כל הסטודנטים המשתתפים בסדנא שנבחרה. בנוסף ישנה אפשרות להוספת סדנא לרשימת הסדנאות הקיימות ואפשרות עריכת סדנא קיימת.
+            </description>
+            <features>
+                <feature>חיפוש סדנא בהתאם לתנאי תשלום</feature>
+                <feature>עריכת סדנא</feature>
+                <feature>הוספת סדנא</feature>
+            </features>
+        </module>
+        <module>
+            <name>שיבוץ</name>
+            <description>
+                לאחר לחיצה על אייקון הדגל בבקשות חניכים בעמוד הראשי של רכזת החונכויות והסדנאות נגיע לדף זה - שיבוץ בין חניך בקורס מבוקש לחונך מתאים בקורס זה בהתאם לאחוז התאמה המורכב מארבע פרמטרים.
+            </description>
+            <features>
+                <feature>בחירת קורס לשיבוץ</feature>
+                <feature>שיבוץ חניך לחונך</feature>
+                <feature>עדכון שיבוץ חניך לחונך</feature>
+                <feature>תצוגה של פרטי ההתאמה</feature>
+            </features>
+        </module>
+        <module>
+            <name>הגדרות</name>
+            <description>
+                בדף ההגדרות ניתן לערוך את משקלי ארבעת הפרמטרים המרכיבים את העדפות החניך לחונך בקורס המבוקש. הפרמטרים הם: ימים, שעות, ניסיון ומין החונך. אחוז ההתאמה הסופי ינוע בטווח בין 0% - 100%.
+            </description>
+            <features>
+                <feature>שינוי משקלי העדפות</feature>
+            </features>
+        </module>
+        <module>
+            <name>דף סטודנט</name>
+            <description>
+                לאחר ביצוע רישום דרך אחד הטפסים המקוונים הסטודנט נשמר במערכת ונפתח לו דף סטודנט. דף זה מרכז את כל פרטי הסטודנט והשירותים שקיבל במרכז בהתאם למחלקות הבאות: חונכויות וסדנאות, ייעוץ והכוונה, נגישות ומזכירות.
+            </description>
+            <features>
+                <feature>ערוך פרטי סטודנט</feature>
+                <feature>העלאת קבצים לסטודנט</feature>
+                <feature>שינוי העדפות חניך/חונך</feature>
+                <feature>תצוגת חונכויות קודמות לחונך</feature>
+                <feature>אישור/ביטול שיוך של חונך לקורס</feature>
+                <feature>הוספת אבחון</feature>
+                <feature>הוספת פגישת ייעוץ</feature>
+                <feature>הוספת תשלום</feature>
+            </features>
+        </module>
+        <module>
+            <name>דיווח תקציב</name>
+            <description>
+                המנהלת תוכל להתעדכן בניצול התקציב השנתי בהתאם להוצאה המחלקתית של מחלקת החונכויות והסדנאות ומחלקת הנגישות. תתאפשר תצוגה טבלאית של ההוצאות בחיתוך לכל מחלקה וגם תתאפשר תצוגה גרפית של ניצול התקציב בהתאם למחלקה מסה"כ התקציב השנתי.
+            </description>
+            <features>
+                <feature>הוסף פעילות לתקציב המחלקתי</feature>
+                <feature>מחיקת פעילות בתקציב המחלקתי</feature>
+                <feature>עריכת פעילות בתקציב המחלקתי</feature>
+                <feature>עדכון תקציב שנתי למחלקה</feature>
+            </features>
+        </module>
+        <module>
+            <name>דוחות</name>
+            <description>
+                דוחות מחלקתיים עם אפשרויות פילוח מותאמות. התצוגה הראשונית של הדוח תהיה טבלאית במערכת עם אפשרות לייצוא לאקסל. הדוחות האפשריים הם: דוח חונכויות, דוח התאמות, דוח ייעוץ והכוונה ודוח סדנאות
+            </description>
+            <features>
+                <feature>יצירת דוח</feature>
+                <feature>ייצוא לאקסל</feature>
+            </features>
+        </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="jQuery"/>
+        <technology name="javaScript"/>
+    </technologies>
+    <challenges>
+        התאמת גרסאות קוד בעבודת הפיתוח, לימוד עצמי של כלים וטכנולוגיות חדשות
+    </challenges>
+    <personalNote>
+        הפרויקט תרם רבות לידע המעשי שנלמד בקורסים השונים, נהננו מאוד מהעשייה המרובה ואנו מרגישים כי הידע התכנותי וההבנתי השתפר פלאים תודה על העזרה והתמיכה לאורך כל שלבי הפרויקט! כפיר, גיל ושני
+    </personalNote>
+</project>

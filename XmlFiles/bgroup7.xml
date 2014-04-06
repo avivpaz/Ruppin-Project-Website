@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>מערכת מידע למעקב תעבורה ותפעול אשפה בעיריית רעננה</name>
+  <type>מערכת מידע</type>
+  <tags>
+    <tag>עיריית רעננה</tag>
+    <tag>מעקב תעבורה</tag>
+    <tag>פינוי אשפה</tag>
+    <tag>מוקד</tag>
+    <tag>פניות</tag>
+    <tag>הפרדת אשפה</tag>
+  </tags>
+  <faculty>BA</faculty>
+  <year>2013</year>
+  <customer>
+    <name>עיריית רעננה</name>
+    <logoUrl>http://www.raanana.muni.il/SiteCollectionImages/logo.gif</logoUrl>
+    <shortDescription>
+      עיריית רעננה מחולקת מחולקת לאגפים שונים כאשר בכל אגף קיימות מספר מחלקות. האגף המרכזי הינו אגף חזות פני העיר אשר אחראי על המחלקות הבאות: מחלקת מחזור, מחלקת גנים ונוף, מחלקת פיקוח עירוני וניקיון רחובות, מחלקת תפעול אשפה, מחלקת רישוי עסקים. אנו בחרנו להתמקד במחלקת תפעול אשפה.
+    </shortDescription>
+    <interstedParties>
+      <party>מנהל המוקד</party>
+      <party>עיריית רעננה</party>
+      <party>מנהל מחלקת תפעול אשפה</party>
+      <party>מוקדנים</party>
+      <party>תושבים</party>
+    </interstedParties>
+    <users>
+      <user>מנהל מוקד</user>
+      <user>מוקדנים</user>
+      <user>עובדי העירייה</user>
+      <user>תושבים</user>
+      <user>מבקרים</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>bgroup7</groupCode>
+    <student>
+      <name>אלמוג מושקה</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/students/almog.jpg</imageUrl>
+    </student>
+    <student>
+      <name>אנקה קרקש</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/students/anca.jpg</imageUrl>
+    </student>
+    <student>
+      <name>ליאת נח</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/students/liat.jpg</imageUrl>
+    </student>
+    <student>
+      <name>פבלו אפסוה</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/students/pablo.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup7/prod/images/logoNew.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/bgroup7/prod/LogIn.aspx</projectLandingPage>
+  <mobile>
+    <links>
+      <link target="allSmartPhone">
+        <url>
+          http://build.phonegap.com/apps/287329/install/?qr_key=W8tezFP8MAr6A5gb5Psa
+        </url>
+        <QRLink>
+          http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/QRCodes/CitizensQR.PNG
+        </QRLink>
+      </link>
+    </links>
+  </mobile>
+  <mobile>
+    <links>
+      <link target="allSmartPhone">
+        <url>
+          http://build.phonegap.com/apps/292585/install/?qr_key=tTrBuGzWUNxe2d4MPg5D
+        </url>
+        <QRLink>
+          http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/QRCodes/WorkersQR.PNG
+        </QRLink>
+      </link>
+    </links>
+  </mobile>
+    <movie>http://www.youtube.com/watch?v=F7woJKg8a1s</movie>
+    <movie>http://www.youtube.com/watch?v=rA_MrQn8NbQ</movie>
+  <screenShots>
+    // 5 screen shots of the application
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/screenshots/homePage.png</imageUrl>
+      <description>מסך עמוד הבית</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/screenshots/requests.png</imageUrl>
+      <description>מסך מעקב פניות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/screenshots/newRequest.png</imageUrl>
+      <description>מסך הוספת פנייה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/screenshots/searchRequest.png</imageUrl>
+      <description>מסך חיפוש פנייה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/screenshots/info.png</imageUrl>
+      <description>מסך מידע נוסף אודות מחזור</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/screenshots/managerPage.png</imageUrl>
+      <description>מסך דף מנהל</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/screenshots/trucksTracker.png</imageUrl>
+      <description>מסך מעקב תעבורה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/screenshots/trucksTracker2.png</imageUrl>
+      <description>2 מסך מעקב תעבורה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup7/prod/DocumentationImages/screenshots/trucksTracker3.png</imageUrl>
+      <description>3 מסך מעקב תעבורה</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>בני בורנפלד</advisor>
+    <advisor>תמי צוקרמן</advisor>
+  </advisors>
+  <shortDescription>
+    מערכת המידע למעקב תעבורה ותפעול אשפה נותנת מענה למוקד העייריה, עובדי השטח והתושבים בנושא תפעול אשפה. המערכת מאפשרת פתיחה ומעקב אחר פניות, עדכון וחיפוש פניות, מעקב אחר משאיות אשפה ברחבי העיר בצורה מקוונת, הפקת דוחות וניהול משתמשים.
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>שקיפות מידע לתושבים</description>
+      <status>
+        האפליקציה הסלולארית מאפשרת שקיפות מידע לתושב בנושא תפעול אשפה
+      </status>
+    </goal>
+    <goal>
+      <description>העלאת הזמינות בפני התושבים</description>
+      <status>
+        האפליקציה הסלולארית מאפשרת מידע זמין ומיידי לתושב, כמו כן שיפור המערכת מאפשרת למוקד לתת מענה מהיר ומיידי
+      </status>
+    </goal>
+    <goal>
+      <description>יעילות הטיפול בנושא תפעול אשפה</description>
+      <status>
+        המערכת והאפליקציות מאפשרות מעקב מקוון אחר הפניות הנפתחות, סגירתם ועדכונם מכל מקום ובכל זמן, כמוכן המערכת מאפשר מעקב אחר משאית אשפה - מציאת מיקום המשאית ובדיקת המסלולה המערכת
+      </status>
+    </goal>
+    <goal>
+      <description>מידע אודות מחזור וסביבה ירוקה</description>
+      <status>
+        המערכת נותנת מענה על גבי מפה אודות מיקומי מחזור שונים
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>ניהול פניות</name>
+      <description>
+        המודול מאפשר פתיחה ומעקב אחרי פניות נפתחות מהמערכת על ידי המוקדן, או מהאפליקציות על ידי התושב או העובד שטח
+      </description>
+      <features>
+        <feature>פתיחת פנייה חדשה</feature>
+        <feature>עדכון פנייה קיימת</feature>
+        <feature>מעקב אחר הסטוריית טיפול בפנייה מסויימת</feature>
+        <feature>מעקב אחר פניות רגילות ופניות דחופות</feature>
+        <feature>חיפוש פניות</feature>
+      </features>
+    </module>
+    <module>
+      <name>מיפוי העיר רעננה ומתן מענה בנוגע לתפעול אשפה</name>
+      <description>
+        המודול מאפשר לראות על גבי מפה את מיקום משאיות האשפה ומסלולם, כמו כן ניתן לראות מספר פניות הנפתחות באזורים מסוימים ולתת מענה בנושא ימי פינוי וסוג הפינוי
+      </description>
+      <features>
+        <feature>מעקב אחר מסלול המשאיות ומיקומם הנוכחי</feature>
+        <feature>בדיקת ימי פינוי וסוג הפינוי</feature>
+        <feature>ריכוז מספר המיקומים של המשאית על גבי מפה</feature>
+        <feature>ריכוז מספר הפניות שנפתחו על גבי המפה</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול משתמשים</name>
+      <description>המודול מאפשר הוספת משתמשים וניהול הרשאות</description>
+      <features>
+        <feature>הוספת משתמש</feature>
+        <feature>הוספת הרשאות</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול דוחות</name>
+      <description>
+        המודול מאפשר מעקב אחר סך הפניות הנפתחות, אזורים בעייתים, ונושאים עיקרים לפתיחת תקלות
+      </description>
+      <features>
+        <feature>מעקב סטטיסטי לפי אזורים, מחלקות ונושאים</feature>
+        <feature>הדפסת פניות</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="jQuery Mobile"/>
+    <technology name="jQuery"/>
+    <technology name="HTML"/>
+    <technology name="GOOGLE MAPS API"/>
+    <technology name="JAVASCRIPT"/>
+    <technology name="WEB SERVICE"/>
+    <technology name="MICROSOFT SQL"/>
+  </technologies>
+  <challenges>
+    האתגר המרכזי עמו התמודדנו בפרויקט הינו נושא הבירוקרטיה מול חברת איתוראן אשר היתה צריכה להעניק לנו היתר התחברות לשרתים באמצעות WEB SERVICE.
+  </challenges>
+  <personalNote>
+    שמחנו לשתף פעולה ולפתח את הפרויקט ביחד כקבוצה. נהננו ואנחנו גאים בתוצאה.
+  </personalNote>
+</project>

@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>Fishies</name>
+  <type>מערכות מידע</type>
+  <tags>
+    // תגדירו תגיות שיעזרו לחפש ולמיין את הפרויקט שלכם
+    <tag>דגים</tag>
+    <tag>מים מלוחים</tag>
+    <tag>אקווריום</tag>
+    <tag>אלמוגים</tag>
+    <tag>חסרי חוליות</tag>
+    <tag>מערכת לניהול</tag>
+  </tags>
+  <faculty>BA</faculty>
+  <year>2013</year>
+  <customer>
+    <name>Fishies</name>
+    <logoUrl>http://proj.ruppin.ac.il/bgroup9/prod/ProjectImages/Logo/FishiesNew.png</logoUrl>
+    <shortDescription>
+      לקוחות מערכת FISHIES הלקוחות הינם לקוחות פרטיים אשר ברשותם אקווריום של מים מלוחים, או לחילופין לאנשי תחזוקת אקווריומים אשר מתחזקים מספר אקווריומים של לקוחותיהם.
+    </shortDescription>
+    <interstedParties>
+      <party>לקוח פרטי (גיא מויאל)</party>
+    </interstedParties>
+    <users>
+      <user>איש תחזוקת אקווריומים (יצחק יצחקי)</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>bgroup9</groupCode>
+    <student>
+      <name>טל אלפסי</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup9/prod/ProjectImages/Students/Tal.jpg</imageUrl>
+    </student>
+    <student>
+      <name>ניצן פרץ</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup9/prod/ProjectImages/Students/Nitzan.jpg</imageUrl>
+    </student>
+    <student>
+      <name>ליאת ויסמן</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup9/prod/ProjectImages/Students/Liat.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup9/prod/ProjectImages/Logo/FishiesNew.png</projectImageUrl>
+  // this is the main image that will represent your project
+  <projectLandingPage>http://proj.ruppin.ac.il/bgroup9/prod/Login.aspx</projectLandingPage>
+  <mobile>
+    <links>
+      <link target="android">
+        <url>
+          https://build.phonegap.com/apps/330020/download/android
+        </url>
+        <QRLink>
+          http://build.phonegap.com/apps/330020/install/?qr_key=kpCw8M6zvPXp2P6C5DDu
+        </QRLink>
+      </link>
+      <link target="ios">
+        <url>the download url goes here</url>
+        <QRLink>QR code link</QRLink>
+      </link>
+      <link target="web mobile">
+        <url>the url goes here</url>
+        <QRLink>QR code link</QRLink>
+      </link>
+    </links>
+  </mobile>
+  <movie>http://youtu.be/82fq7dM3WrY</movie>
+  <screenShots>
+    // 5 screen shots of the application
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup9/prod/ProjectImages/ScreenShots/Login.png</imageUrl>
+      <description>מסך Login</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup9/prod/ProjectImages/ScreenShots/Aqua.png</imageUrl>
+      <description>מסך אקווריומים שלי</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup9/prod/ProjectImages/ScreenShots/aquaView.png</imageUrl>
+      <description>מסך צפייה באקווריום</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup9/prod/ProjectImages/ScreenShots/homePage.png</imageUrl>
+      <description>מסך דף הבית</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup9/prod/ProjectImages/ScreenShots/tests.png</imageUrl>
+      <description>מסך בדיקה</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>ניר חן</advisor>
+    <advisor>בני בורנפלד</advisor>
+  </advisors>
+  <shortDescription>
+    מערכת לניהול אקווריום של מים מלוחים אשר פותחה עבור לקוחות שברשותם אקווריום. המערכת מאפשרת לחובבי התחום לעבוד עם ממשק ידידותי ונוח הן בדפדפנים רגילים והן במכשיר הטלפון החכם שלהם. המערכת מאפשרת לנהל יומן בדיקות של ערכים במים והפקת דוחות אודותם ומשמשת כרשת חברתית לניצול חוכמת ההמון.
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>
+        מעקב אחר ערכי המים על מנת לשפר את איכות המים ולהפחית תמותה של יצורים חיים
+      </description>
+      <status>
+        הלקוח נמצא בזמן תהליך ההטמעה ואישר שאכן ערכי המים טובים מהרגיל
+      </status>
+    </goal>
+    <goal>
+      <description>מנגנון המלצות וזיהוי ערכים חריגים</description>
+      <status>
+        המערכת מבצעת בדיקה לגבי ערכים במים שהוזנו בבדיקה ומתריעה במקרה ויש ערך חריג במים כולל המלצה לשיפור
+      </status>
+    </goal>
+    <goal>
+      <description>התאמה בין דגים</description>
+      <status>
+        המערכת מבצעת בדיקה בעת הוספת דג לאקווריום אם נמצא באקווריום דג מאותה המשפחה ומתריעה שקיימת סכנה
+      </status>
+    </goal>
+    <goal>
+      <description>שימוש בחוכמת ההמון</description>
+      <status>
+        המערכת הינה רשת חברתית אשר מאפשרת למשתמשים לשתף מידע ולהתייעץ אחד עם השני: פורום, הודעות אישיות, השוואת מחירים ועוד.
+      </status>
+    </goal>
+    <goal>
+      <description>תזכורת לביצוע בדיקות לפי תדירות קבועה</description>
+      <status>
+        המערכת שולחת התראות במייל ומתריאה למשתמש על בדיקה שעליו לבצע באקווריום
+      </status>
+    </goal>
+    <goal>
+      <description>פיתוח אפליקציה לתחזוקת האקווריום</description>
+      <status>
+        פותחה אפליקציה אינפורמטיבית אודות האקווריומים הקיימים של הלקוח הכוללת אפשרות להוספת בדיקות חדשות והפקת דוחות אודות ערכי המים. בנוסף, תזכורות אודות בדיקות שיש לבצע נשתלות ביומן של המכשיר החכם.
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>דף הבית</name>
+      <description>
+        בדף הבית ניתן לצפות בהודעות האחרונות שהתפרסמו בפורומים, צפיה בעדכוני מחירים אחרונים, צפיה בחברים של המערכת.
+      </description>
+      <features>
+        <feature>הוספת הודעה בפורום</feature>
+        <feature>שיתוף תמונה</feature>
+        <feature>דירוג אקווריום חדש</feature>
+      </features>
+    </module>
+    <module>
+      <name>דף הפרופיל שלי</name>
+      <description>דף המכיל את פרטי המשתמש.</description>
+      <features>
+        <feature>עריכת פרטי משתמש</feature>
+        <feature>עדכון סיסמת משתמש</feature>
+      </features>
+    </module>
+    <module>
+      <name>דף אקווריום חדש</name>
+      <description>טופס הוספת אקווריום חדש.</description>
+      <features>
+        <feature>הוספת פרטי אקווריום</feature>
+        <feature>העלאת תמונת האקווריום</feature>
+      </features>
+    </module>
+    <module>
+      <name>דף פורומים</name>
+      <description>
+        דף המכיל טבלת פורומים המחולקים לטאבים (קטגוריות): פורום כללי, טיפול שוטף וערכים במים. לחיצה על "לתגובות" מציג בטבלה נפרדת את התגובות להודעה הנבחרת.
+      </description>
+      <features>
+        <feature>צפייה בהודעות שפורסמו ותגובותיהן</feature>
+      </features>
+    </module>
+    <module>
+      <name>דף בדיקה חדשה</name>
+      <description>
+        בדף זה נמצא טופס להזנת ערכים לבדיקה שבוצעה לפי אקווריום נבחר. לכל שדה יש ולידאטורים אשר תואמים לערך הנוכחי.
+      </description>
+      <features>
+        <feature>הוספת בדיקה חדשה</feature>
+      </features>
+    </module>
+    <module>
+      <name>דף ארכיון בדיקות</name>
+      <description>
+        דף המכיל את היסטוריית הבדיקות של המשתמש לפי אקווריום שבוחר. ניתן למיין לפי תאריכים, לערוך ולמחוק בדיקה.
+      </description>
+      <features>
+        <feature>עדכון בדיקה</feature>
+        <feature>מחיקת בדיקה</feature>
+      </features>
+    </module>
+    <module>
+      <name>דף דוחות</name>
+      <description>
+        בדף זה ניתן להפיק דוחות לערכים השונים של המים עפ"י טווחי תאריכים לבחירת המשתמש.
+      </description>
+      <features>
+        <feature>בחירת אקווריום</feature>
+        <feature>בחירת ערך</feature>
+        <feature>שינוי טווחי התאריכים</feature>
+      </features>
+    </module>
+    <module>
+      <name>השוואת מחירים</name>
+      <description>
+        בדף זה ניתן לבחור יצור חי ולצפות בעדכוני מחירים וחנויות שעודכנו ע"י חברי המערכת.
+      </description>
+      <features>
+        <feature>בחירת יצור חי להשוואה</feature>
+      </features>
+    </module>
+    <module>
+      <name>צפייה ביצורים חיים</name>
+      <description>
+        בדף זה ניתן לצפות בכל היצורים החיים הקיימים במערכת.
+      </description>
+      <features>
+        <feature>סינון עפ"י סוג היצור החי</feature>
+      </features>
+    </module>
+    <module>
+      <name>דף הודעות</name>
+      <description>
+        בדף זה ניתן לצפות בהודעות שנשלחו למשתמש ע"י משתמשים אחרים במערכת וכמו כן לשלוח הודעה חדשה למשתמש אחר.
+      </description>
+      <features>
+        <feature>צפיה בהודעות נכנסות</feature>
+        <feature>שליחת הודעה</feature>
+      </features>
+    </module>
+    <module>
+      <name>מנהל מערכת</name>
+      <description>
+        בממשק זה מנהלים את כל הרשאות המערכת. רק למנהל המערכת יש הרשאה להיכנס לממשק זה.
+      </description>
+      <features>
+        <feature>השהיית משתמשים</feature>
+        <feature>ניהול ערכים לבדיקות</feature>
+        <feature>ניהול יצורים חיים</feature>
+        <feature>ניהול הודעות שפורסמו בפורומים</feature>
+        <feature>שליחת הודעות</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="jQuery Mobile"/>
+    <technology name="javaScript"/>
+  </technologies>
+  <challenges>
+    עבודה מול השרת, תיאום עבודת הצוות בשלבי הפיתוח, למידת העבודה עם phonegap.
+  </challenges>
+  <personalNote></personalNote>
+</project>
